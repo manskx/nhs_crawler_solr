@@ -1,4 +1,5 @@
 package com.manskx.nhscrawler.manager;
+import java.sql.SQLException;
 import java.util.Set;
 import java.util.regex.Pattern;
 
@@ -7,6 +8,8 @@ import edu.uci.ics.crawler4j.crawler.WebCrawler;
 import edu.uci.ics.crawler4j.parser.HtmlParseData;
 import edu.uci.ics.crawler4j.url.WebURL;
 import org.apache.http.Header;
+
+import com.manskx.nhscrawler.database.ConditionsInsertions;
 
 public class NHSCrawler extends WebCrawler {
     private static final Pattern IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$");
@@ -41,17 +44,33 @@ public class NHSCrawler extends WebCrawler {
         String anchor = page.getWebURL().getAnchor();
         logger.debug("Docid: {}", docid);
         logger.info("URL: {}", url);
+        
         logger.debug("Domain: '{}'", domain);
         logger.debug("Sub-domain: '{}'", subDomain);
         logger.debug("Path: '{}'", path);
         logger.debug("Parent page: {}", parentUrl);
         logger.debug("Anchor text: {}", anchor);
-
         if (page.getParseData() instanceof HtmlParseData) {
             HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
-            htmlParseData.
             String text = htmlParseData.getText();
             String html = htmlParseData.getHtml();
+            System.out.println(html);
+            ConditionsExtractor conditionsExtractor 	=	ConditionsExtractor.getInstance();
+            ConditionsExtractor.getInstance().setHtml(html);
+
+            String title	=	conditionsExtractor.getTitle();
+            String content	=	conditionsExtractor.getContent();
+            String Header	=	conditionsExtractor.getHeader();
+            
+            try {
+				ConditionsInsertions.getInstance().insertData(url, anchor, 
+						title, Header, content, url.hashCode());
+			} catch (SQLException | ClassNotFoundException e) {
+
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
             Set<WebURL> links = htmlParseData.getOutgoingUrls();
 
             logger.debug("Text length: {}", text.length());

@@ -8,8 +8,11 @@ import edu.uci.ics.crawler4j.crawler.WebCrawler;
 import edu.uci.ics.crawler4j.parser.HtmlParseData;
 import edu.uci.ics.crawler4j.url.WebURL;
 import org.apache.http.Header;
+import org.hibernate.Session;
 
+import com.manskx.nhscrawler.database.Conditions;
 import com.manskx.nhscrawler.database.ConditionsInsertions;
+import com.manskx.nhscrawler.persistence.HibernateUtil;
 
 public class NHSCrawler extends WebCrawler {
     private static final Pattern IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$");
@@ -62,30 +65,28 @@ public class NHSCrawler extends WebCrawler {
             String content	=	conditionsExtractor.getContent();
             String Header	=	conditionsExtractor.getHeader();
             
-            try {
-				ConditionsInsertions.getInstance().insertData(url, anchor, 
-						title, Header, content, url.hashCode());
-			} catch (SQLException | ClassNotFoundException e) {
-
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+            Session session = HibernateUtil.getSessionFactory().openSession();
+			
+			session.beginTransaction();
+			Conditions condition = new Conditions();
+			
+			condition.setUrl(url);
+			condition.setAnchor(anchor);
+			condition.setTitle(title);
+			condition.setHeader(Header);
+			condition.setContentdata(content);
+			condition.setHashed_url(url.hashCode());
+			//session.save(stock);               
+			//session.delete(stock);
+			
+			session.getTransaction().commit();
+			//ConditionsInsertions.getInstance().insertData(url, anchor, 
+			//		title, Header, content, url.hashCode());
 
             Set<WebURL> links = htmlParseData.getOutgoingUrls();
 
-            logger.debug("Text length: {}", text.length());
-            logger.debug("Html length: {}", html.length());
-            logger.debug("Number of outgoing links: {}", links.size());
+
         }
 
-        Header[] responseHeaders = page.getFetchResponseHeaders();
-        if (responseHeaders != null) {
-            logger.debug("Response headers:");
-            for (Header header : responseHeaders) {
-                logger.debug("\t{}: {}", header.getName(), header.getValue());
-            }
-        }
-
-        logger.debug("=============");
     }
 }

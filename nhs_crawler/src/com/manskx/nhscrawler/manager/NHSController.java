@@ -1,5 +1,11 @@
 package com.manskx.nhscrawler.manager;
 
+import com.manskx.nhscrawler.database.ConditionsInsertionDatabase;
+import com.manskx.nhscrawler.resources.ConditionsInsertion;
+import com.manskx.nhscrawler.resources.Configurations;
+import com.manskx.nhscrawler.resources.MessageSource;
+import com.sleepycat.je.rep.impl.TextProtocol.Message;
+
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
 import edu.uci.ics.crawler4j.fetcher.PageFetcher;
@@ -10,46 +16,69 @@ public class NHSController {
 	private static NHSController instance;
 	public static boolean CrawlingStarted = false;
 	public static boolean CrawlingFinished = false;
+	private static ConditionsInsertion currConditionsInsertion;
+	private static int SuccesfullyFetchedURLs	=	0;
+	public static int getSuccesfullyFetchedURLs() {
+		return SuccesfullyFetchedURLs;
+	}
+	public static int getFaildFetchedURLs() {
+		return FaildFetchedURLs;
+	}
 
+	private static int FaildFetchedURLs	=	0;
+	
+	public static void SuccesfullyFetchedURL(){
+		SuccesfullyFetchedURLs++;
+	}
+	public static void FaildFetchedURL(){
+		FaildFetchedURLs++;
+	}
 	private NHSController() {
 	}
 
 	public static NHSController getInstance() {
 		if (instance == null) {
 			instance = new NHSController();
+			currConditionsInsertion	=	new ConditionsInsertionDatabase();
 		}
 		return instance;
 	}
 
+	public static ConditionsInsertion getConditionsInsertion(){
+		return currConditionsInsertion;
+	}
+	public String getSuccessfulAndFaildUrlsStatus(){
+		return "\n Successfully Fetchs: "+getSuccesfullyFetchedURLs()+"\n"+
+				"Faild Fechs: "+getFaildFetchedURLs();
+	}
 	public String getCrawlingStatus() {
 		if (CrawlingStarted)
-			return "Crawling is running now !";
+			return MessageSource.RUNNING_CRALWING+ getSuccessfulAndFaildUrlsStatus();
 		if (CrawlingFinished)
-			return "Crawling is finished !";
-		return "Crawling is not started yet";
+			return MessageSource.FINISHED_CRALWING+ getSuccessfulAndFaildUrlsStatus();
+		return MessageSource.NOT_STARTED_CRALWING;
 
 	}
 
 	public String startCrawlingInBackground() throws Exception {
 
 		if (CrawlingStarted)
-			return "Crawling is running now, Please try again after finishing crawling";
+			return MessageSource.WARNING_CRAWLING_IS_ALREADY_RUNNING;
 		Runnable r = new Runnable() {
 			public void run() {
 				try {
 					crawler();
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 		};
 
 		new Thread(r).start();
-
+		CrawlingStarted	=	true;
 		if (CrawlingStarted)
-			return "Crawling is running now !";
-		return "An error oqquired please try contact admin";
+			return MessageSource.STARTING_CRAWLING;
+		return MessageSource.ERROR_;
 	}
 
 	public void crawler() throws Exception {
@@ -64,7 +93,7 @@ public class NHSController {
 		 * numberOfCrawlers shows the number of concurrent threads that should
 		 * be initiated for crawling.
 		 */
-		int numberOfCrawlers = 5;
+		int numberOfCrawlers = Configurations.NUMBER_OF_CRAWLERS;
 
 		CrawlConfig config = new CrawlConfig();
 
@@ -80,13 +109,13 @@ public class NHSController {
 		 * You can set the maximum crawl depth here. The default value is -1 for
 		 * unlimited depth
 		 */
-		config.setMaxDepthOfCrawling(10);
+		config.setMaxDepthOfCrawling(Configurations.MAX_DEBTH_OF_CRAWLING);
 
 		/*
 		 * You can set the maximum number of pages to crawl. The default value
 		 * is -1 for unlimited number of pages
 		 */
-		config.setMaxPagesToFetch(1000);
+		config.setMaxPagesToFetch(Configurations.MAX_PAGES_TO_FETCH);
 
 		/**
 		 * Do you want crawler4j to crawl also binary data ? example: the
@@ -125,7 +154,7 @@ public class NHSController {
 		 * URLs that are fetched and then the crawler starts following links
 		 * which are found in these pages
 		 */
-		controller.addSeed("http://www.nhs.uk/conditions/Pages/hub.aspx");
+		controller.addSeed(Configurations.SEED_URL);
 
 		/*
 		 * Start the crawl. This is a blocking operation, meaning that your code

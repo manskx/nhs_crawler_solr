@@ -11,7 +11,6 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 import javax.validation.constraints.NotNull;
 
-import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
 @Table(name = "conditions")
@@ -21,23 +20,18 @@ public class Conditions {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
-	@NotEmpty
 	@Column(name = "url", nullable = false)
 	private String url;
 
-	@NotEmpty
 	@Column(name = "anchor", nullable = false)
 	private String anchor;
 
-	@NotEmpty
 	@Column(name = "title", nullable = false)
 	private String title;
 
-	@NotEmpty
 	@Column(name = "header", nullable = false)
 	private String header;
 
-	@NotEmpty
 	@Column(name = "contentdata", nullable = false)
 	private String contentdata;
 	

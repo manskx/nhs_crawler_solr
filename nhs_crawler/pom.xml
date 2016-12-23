@@ -19,7 +19,12 @@
 			<artifactId>jersey-container-servlet</artifactId>
 			<version>2.25</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.shekhargulati.urlcleaner</groupId>
+			<artifactId>urlcleaner</artifactId>
+			<version>0.4.0</version>
+			<type>jar</type>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
@@ -58,28 +63,40 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
+			<version>3.4.0.GA</version><!-- for JPA 1.0 -->
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.6.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
 			<version>3.3.2.GA</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-annotations</artifactId>
-			<version>3.4.0.ga</version>
+			<artifactId>hibernate-validator</artifactId>
+			<version>3.1.0.GA</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-commons-annotations -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-commons-annotations</artifactId>
-			<version>3.3.0.ga</version>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.1.6.Final</version>
 		</dependency>
 
-<!-- https://mvnrepository.com/artifact/javax.transaction/jta -->
-<dependency>
-    <groupId>javax.transaction</groupId>
-    <artifactId>jta</artifactId>
-    <version>1.1</version>
-</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.transaction/jta -->
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>
 
 		<!-- Hibernate library dependecy start -->
 		<dependency>
@@ -109,4 +126,15 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.6.1</version>
+				<type>jar</type>
+				<scope>compile</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

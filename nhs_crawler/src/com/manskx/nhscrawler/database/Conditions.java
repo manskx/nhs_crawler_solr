@@ -5,13 +5,16 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
-import static javax.persistence.GenerationType.IDENTITY;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.UniqueConstraint;
 import javax.validation.constraints.NotNull;
 
-
+/**
+ * This is model class for conditions table in database
+ * mainly this class is used by hibernate ORM
+ * @author mansk
+ *
+ */
 @Entity
 @Table(name = "conditions")
 public class Conditions {

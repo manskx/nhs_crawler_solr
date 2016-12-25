@@ -1,0 +1,1030 @@
+A1C,Glycohemoglobin,HbA1C,Hemoglobin A1C test
+Abdominal Pain,Bellyache
+Aborto,Aborto terapéutico,Interrupción del embarazo
+Abuso de drogas de receta médica,Abuso de medicamentos de receta,Abuso de remedios
+Abuso sexual de menores,Abuso sexual de niños
+Accidente cerebrovascular,ACV,Accidente cerebral,Apoplejía,Ataque cerebral,Derrame cerebral,Infarto cerebral
+Accidente cerebrovascular hemorrágico,Accidente cerebral hemorrágico,Ataque cerebral hemorrágico,Derrame cerebral hemorrágico
+Accidente cerebrovascular isquémico,Accidente cerebral isquémico,Ataque isquémico,Ictus isquémico,Infarto cerebral isquémico
+Acidez estomacal,Agruras,Pirosis
+Acne,Pimples,Zits
+Acné,Barros,Espinillas,Granitos
+Acoustic Neuroma,Acoustic neurilemmoma,Acoustic neurinoma,Auditory tumor,Vestibular schwannoma
+Acute Lymphocytic Leukemia,ALL,Acute lymphoblastic leukemia
+Acute Myeloid Leukemia,AML,ANLL,Acute myelogenous leukemia
+Addison Disease,Adrenal insufficiency,Adrenocortical hypofunction,Hypocortisolism
+Adhesions,Abdominal adhesions
+Adicción a los juegos de azar,Jugador compulsivo,Jugador patológico,Ludopatía
+Afasia,Problemas para hablar
+After Surgery,Postoperative care,Recovery from surgery
+Agrandamiento de la próstata,Hiperplasia benigna de la próstata,Hipertrofia prostática benigna,Próstata agrandada
+Agresión sexual,Asalto sexual,Violación
+Agua potable,Agua para beber
+Ahogo,Ahogamiento
+Alcohol,Drinking
+Alcohol,Beber alcohol,Tomar vino
+Alcohol y menores de edad,Adolescentes y el alcohol
+Alcoholism and Alcohol Abuse,Alcohol dependence
+Alergia,Hipersensibilidad,Reacción adversa
+Alergia a los alimentos,Alergia alimentaria
+Allergy,Hypersensitivity
+Alpha-1 Antitrypsin Deficiency,AATD,Alpha-1,Inherited emphysema
+Alzheimer's Disease,AD
+Ambliopía,Ojo perezoso,Ojo vago
+Amblyopia,Lazy eye
+Amiloidosis,Amilidosis
+Amyotrophic Lateral Sclerosis,ALS,Lou Gehrig's disease
+Amígdalas y tonsilectomía,Anginas
+Anabolic Steroids,Anabolic-androgenic steroids,Performance-enhancing drugs
+Anafilaxia,Reacción anafiláctica,Shock anafiláctico
+Anal Disorders,Anorectal diseases
+Analgésicos,Calmantes para el dolor,Medicamentos para el dolor
+Anaphylaxis,Anaphylactic shock
+Anemia,Iron poor blood
+Anemia falciforme,Anemia causada por drepanocitos,Anemia drepanocítica,Enfermedad de células falciformes,Enfermedad de la hemoglobina SS (Hb SS)
+Aneurismas,Dilatación o abultamiento en las arterias
+Angioplasty,Balloon angioplasty
+Angioplastía,Angioplastia de arteria coronaria,Angioplastía coronaria,Dilatación de las arterias del corazón
+Animal Bites,Cat bites,Dog bites
+Animal Diseases and Your Health,Zoonoses
+Ankylosing Spondylitis,Rheumatoid spondylitis
+Anomalías craneofaciales,Deformidades de la cara y la cabeza,Deformidades dentofaciales,Deformidades faciales
+Ansiedad,Miedo,Nerviosismo
+Antidepresivos,Antidepresivos tricíclicos,Inhibidores de serotonina y norepinefrina (SNRI),Inhibidores selectivos de recaptación de serotonina (SSRI),Medicamentos para la depresión,Remedios para la depresión
+Antidepressants,SSRIs,Selective serotonin reuptake inhibitors,Tricyclic antidepressants
+Análisis de orina,Examen de orina,Pruebas de orina
+Análisis de sangre,Examen de sangre,Hemograma completo,Pruebas de conteo sanguíneo,Pruebas de sangre,Recuento sanguíneo
+Apendicitis,Inflamación del apéndice
+Arrhythmia,Irregular heartbeat
+Arritmia,Disrritmias,Problemas con los latidos del corazón,Ritmo cardíaco anormal
+Arterioesclerosis,Acumulación de placa en las arterias,Ateroesclerosis,Aterosclerosis,Endurecimiento de las arterias
+Arteriovenous Malformations,AVM
+Arteritis de células gigantes,Arteritis craneal,Arteritis de la temporal
+Artritis infecciosa,Artritis séptica
+Artritis juvenil,Artritis idiopática juvenil,Artritis inflamatoria crónica en los niños,Artritis reumatoide juvenil
+Artritis reumatoide,AR,Artritis reumatoidea,Reuma
+Asbesto,Amianto
+Asesoramiento genético,Consulta sobre genética
+Asfixia,Atragantarse
+Asilo de ancianos y convalecientes,Geriátricos,Residencias para personas mayores
+Asistencia económica,Asistencia financiera
+Assisted Living,Residential care
+Assisted Reproductive Technology,ART,IVF,In Vitro Fertilization
+Assistive Devices,Assistive technology
+Asthma in Children,Childhood asthma
+Asuntos que enfrenta el enfermo terminal,Final de la vida,Muerte y enfermo terminal,Opciones para el final de la vida
+Ataque al corazón,Ataque cardíaco,Infarto
+Ataque isquémico transitorio,Mini derrame
+Ataxia telangiectasia,Síndrome de Louis-Bar
+Atherosclerosis,Arteriosclerosis
+Athlete's Foot,Tinea pedis
+Atrial Fibrillation,AF,AFib
+Atrofia muscular espinal,AME
+Attention Deficit Hyperactivity Disorder,ADHD
+Audífonos,Dispositivos para escuchar mejor,Dispositivos para mejorar la audición
+Autism Spectrum Disorder,ASD,Pervasive developmental disorder (PDD)
+Automutilación,Autodañarse,Autoflagelación,Autolaceración,Autolesionarse,Conducta autodestructiva,Conductas autolesivas,Cortarse
+Autonomic Nervous System Disorders,Dysautonomia
+Back Pain,Backache,Lumbago
+Bad Breath,Halitosis
+Bebé prematuro,Bebé pretérmino
+Bedwetting,Enuresis
+Behcet's Syndrome,Behcet's disease
+Benign Tumors,Benign cancer,Benign neoplasms,Noncancerous tumors
+Bereavement,Grief
+Bile Duct Cancer,Cholangiocarcinoma
+Biodefensa y bioterrorismo,Armas biológicas,Terrorismo biológico
+Bipolar Disorder,Manic-depressive illness
+Bird Flu,Avian flu,Avian influenza,H5N1,H7N9
+Birth Control,Contraception
+Birthmarks,Cafe au lait spot,Hemangioma,Mongolian spot,Nevus,Strawberry mark
+Bleeding,Hematoma,Hemorrhage
+Bleeding Disorders,Clotting disorders
+Blisters,Bulla,Vesicle
+Blood Clots,Hypercoagulability
+Blood Count Tests,CBC,Complete Blood Count,Hematologic Tests
+Blood Disorders,Hematologic diseases
+Blood Pressure Medicines,Antihypertensive medicines,High blood pressure medicines
+Blood Sugar,Blood glucose
+Blood Thinners,Anti-platelet drugs,Anticoagulants
+Boca seca,Xerostomía
+Bone Density,Bone mass
+Botox,Botulinum toxin type A
+Bowel Incontinence,Encopresis,Fecal incontinence,Stool soiling
+Bowel Movement,BM,Feces,Poop,Stool
+Brain Aneurysm,Berry aneurysm,Cerebral aneurysm,Intracranial aneurysm
+Brain Malformations,Cephalic disorders
+Breastfeeding,Lactation,Nursing
+Bruises,Contusion,Ecchymoses
+Bursitis,Inflamación de la bursa
+Bypass de la arteria coronaria,Bypass,Cirugía de derivación cardíaca
+Callos y callosidades,Hiperqueratosis
+Cambio climático,Efecto invernadero
+Cancer,Carcinoma,Malignancy,Neoplasms,Tumor
+Canker Sores,Aphthous ulcers
+Carbohidratos en la dieta,Azúcar en la dieta,Hidratos de carbono
+Carbohydrates,Carbs
+Carbon Monoxide Poisoning,CO poisoning
+Cardiac Arrest,SCA,Sudden cardiac death
+Cardiomiopatía,Miocardiopatía
+Cardiomyopathy,Dilated cardiomyopathy,Hypertrophic cardiomyopathy,Myocardiopathy,Restrictive cardiomyopathy
+Caries,Caries dentales
+Carpal Tunnel Syndrome,Median nerve entrapment
+Caspa, costra láctea y otras condiciones del cuero cabelludo,Dermatitis seborreica,Eccema seborreico,Seborrea
+Cat Scratch Disease,CSD,Cat scratch fever
+Celiac Disease,Celiac sprue,Gluten-sensitive enteropathy,Nontropical sprue
+Centros de salud,Clínicas,Hospitales,Sanatorios
+Cerebral Palsy,CP
+Cesarean Section,C-section
+Cesárea,Parto por cesárea
+Chagas Disease,American trypanosomiasis,South American trypanosomiasis
+Charcot-Marie-Tooth Disease,Hereditary motor and sensory neuropathy,Peroneal muscular atrophy
+Chequeo médico,Chequeo anual,Chequeos de rutina,Examen médico anual
+Chequeo médico de la mujer,Chequeo médico para la mujer
+Chiari Malformation,Arnold-Chiari Malformation
+Chickenpox,Varicella
+Chikungunya,Chikunguña
+Child Behavior Disorders,Conduct disorders
+Child Care,Day care
+Childhood Immunization,Shots
+Cholesterol,HDL,Hypercholesterolemia,Hyperlipidemia,Hyperlipoproteinemia,LDL
+Chronic Fatigue Syndrome,CFS,ME/CFS,Myalgic Encephalomyelitis,SEID,Systemic Exertion Intolerance Disease
+Chronic Kidney Disease,CKD
+Chronic Lymphocytic Leukemia,CLL
+Chronic Myeloid Leukemia,CML,Chronic granulocytic leukemia,Chronic myelogenous leukemia
+Cigarrillo electrónico,Cigarro electrónico,Vaporizador electrónico
+Cirrhosis,Hepatic fibrosis
+Cirugía del ojo con rayos láser,Corrección de la visión con láser,LASIK,Queratomileusis
+Cirugías para la obesidad,Bypass gástrico,Cirugía bariátrica,Cirugía para adelgazar,Cirugía para bajar de peso,Derivación gástrica
+Citomegalovirus,CMV
+Clostridium Difficile Infections,C. diff. infections,Clostridium enterocolitis,pseudomembranous colitis
+Cobertura de Medicare de medicamentos recetados,Plan de Medicare para remedios con receta médica
+Cocaine,Blow,C,Coca,Coke,Crack,Flake,Snow
+Cocaína,Coca,Dama blanca,Nieve,Talco
+Colapso pulmonar,Atelectasia pulmonar
+Cold Sores,Fever blister,Oral herpes
+Colesterol,Lipoproteínas de alta densidad (HDL),Lipoproteínas de baja densidad (LDL),Niveles de colesterol
+Colitis ulcerativa,Colitis ulcerosa,Enfermedad intestinal inflamatoria
+Colonic Diseases,Large intestine diseases
+Colonic Polyps,Colon polyps
+Colorectal Cancer,Colon cancer,Rectal cancer
+Coma,Estado vegetativo
+Complementary and Integrative Medicine,CAM
+Complex Regional Pain Syndrome,CRPS,Causalgia,Reflex sympathetic dystrophy
+Comprendiendo la información de salud,Entender la información médica
+Compulsive Gambling,Gambling addiction
+Concussion,Brain concussion
+Conjuntivitis,Inflamación de la conjuntiva
+Contaminación de interiores,Calidad del aire interior en su hogar,Polución en casa
+Contaminación del aire,Polución del aire
+Control de la natalidad y contracepción,Anticoncepción,Métodos anticonceptivos,Prevenir un embarazo,Profilácticos
+Control de peso,Dieta para mantener el peso
+Coronary Artery Bypass Surgery,Bypass surgery,CABG,Coronary artery bypass graft
+Coronary Artery Disease,CAD,Coronary arteriosclerosis,Coronary atherosclerosis
+Cosmetics,Makeup
+Cosmética dental,Odontología cosmética
+Cosméticos,Maquillaje
+CPR,Cardiopulmonary resuscitation
+Creatinine,Serum Creatinine,Urine Creatinine
+Creutzfeldt-Jakob Disease,CJD
+Crianza de los hijos,Educación de los hijos
+Critical Care,Intensive care
+Crohn's Disease,Regional enteritis,Regional ileitis
+Croup,Spasmodic croup,Viral croup
+Crup,Laringotraqueobronquitis
+Cryptosporidiosis,Crypto
+CT Scans,CAT scan
+Cuidado prenatal,Cuidados durante el embarazo
+Cuidados de hospicio,Cuidado del paciente en estado terminal
+Cuidados después del parto,Cuidado posparto,Cuidado puerperal,Cuidados de puerperio
+Cushing's Syndrome,Hypercortisolism
+Cystic Fibrosis,CF
+Cytomegalovirus Infections,CMV
+Cáncer de cuello uterino,Cáncer cervical,Cáncer de cérvix
+Cáncer de estómago,Cáncer estomacal
+Cáncer de hueso,Cáncer óseo
+Cáncer de hígado,Carcinoma hepatocelular,Cáncer hepático
+Cáncer de intestino,Cáncer intestinal
+Cáncer de ojo,Cáncer ocular
+Cáncer de ovario,Cáncer ovárico
+Cáncer de próstata,Cáncer prostático
+Cáncer de pulmón,Carcinoma broncopulmonar,Cáncer pulmonar
+Cáncer de páncreas,Carcinoma pancreático,Cáncer pancreático
+Cáncer de riñón,Cáncer renal
+Cáncer de seno,Cáncer de mama,Cáncer de pecho
+Cáncer de seno en el hombre,Cáncer de pecho en el hombre
+Cáncer de testículo,Cáncer testicular
+Cáncer de vagina,Cáncer vaginal,Tumor vaginal
+Cáncer de vejiga,Carcinoma de células transicionales de la vejiga,Cáncer vesical
+Cáncer de vulva,Cáncer del periné
+Cáncer de útero,Cáncer uterino
+Cáncer del ano,Cáncer anal
+Cáncer del colon y del recto,Cáncer colorrectal
+Cáncer en niños,Cáncer en la niñez,Cáncer pediátrico
+Cáncer nasal,Cáncer de la nariz
+Cáncer oral,Cáncer de la cavidad oral,Cáncer orofaríngeo
+Cáncer: Viviendo con cáncer,Viviendo con cáncer,Vivir con cáncer
+Cólera,Vibrio cholerae
+Daltonismo,Acromatismo,Acromatopsia
+Dandruff, Cradle Cap, and Other Scalp Conditions,Seborrhea,Seborrheic Dermatitis
+DASH Diet,Dietary Approaches to Stop Hypertension
+Deep Vein Thrombosis,DVT
+Defectos cardíacos congénitos,Defectos del corazón de nacimiento
+Defectos congénitos,Defectos de nacimiento,Malformaciones congénitas
+Degeneración macular,Degeneración de la mácula
+Degenerative Nerve Diseases,Neurodegenerative diseases
+Dejar los pañales,Enseñar a su hijo a usar el inodoro
+Demencia,Demencia senil,Síndrome cerebral orgánico
+Dementia,Senility
+Dengue,Break-bone fever,Dengue fever
+Dengue,Fiebre hemorrágica del dengue
+Densidad ósea,Densidad mineral ósea,Osteopenia,Pérdida de masa ósea
+Dental Health,Oral health
+Dentures,False teeth
+Depresión,Depresión severa,Trastorno distímico,Tristeza profunda y persistente
+Depresión posparto,Depresión después del parto,Depresión postparto
+Depression,Clinical depression,Dysthymic disorder,Major depressive disorder,Unipolar depression
+Desmayo,Desvanecimiento,Síncope
+Desnutrición,Alimentación insuficiente,Mala o poca alimentación
+Desperdicios tóxicos,Desechos tóxicos
+Después de una cirugía,Cuidados post-operatorios,Después de una operación,Luego de una cirugía,Post-operación,Postoperación
+Desórdenes eosinofílicos,Eosinofilia
+Diabetes,DM,Diabetes mellitus
+Diabetes,Diabetes de comienzo en la edad adulta,Diabetes no insulinodependiente
+Diabetes and Pregnancy,Gestational diabetes
+Diabetes Complications,Diabetic complications
+Diabetes Insipidus,DI
+Diabetes insípida,Diabetes del agua
+Diabetes tipo 1,Diabetes insulinodependiente,Diabetes juvenil
+Diabetes tipo 2,Diabetes de aparición en adultos,Diabetes no insulinodependiente
+Diabetes Type 1,Insulin-dependent diabetes,Juvenile diabetes,Type I diabetes
+Diabetes Type 2,Type 2 Diabetes
+Diabetes y el embarazo,Diabetes gestacional
+Diabetic Eye Problems,Diabetic retinopathy
+Diabetic Kidney Problems,Diabetic nephropathy
+Diabetic Nerve Problems,Diabetic neuropathy
+Diagnostic Imaging,Imaging
+Diagnóstico doble,Abusar de sustancias y tener enfermedad mental
+Dialysis,Renal dialysis
+Diarrhea,Dysentery,The runs,The trots
+Dieta para diabéticos,Dieta y diabetes,Nutrición para personas con diabetes
+Dieta vegetariana,Vegetarianismo
+Dietary Fats,Lipids,Monounsaturated fat,Polyunsaturated fat,Saturated fat
+Dietary Fiber,Bulk,Roughage
+Digestive Diseases,Gastrointestinal diseases
+Directivas médicas por adelantado,Opciones para el final de la vida,Órdenes de no resucitar,Órdenes de resucitar
+Discapacidades,Necesidades especiales
+Dislocaciones,Luxaciones
+Diverticulosis and Diverticulitis,Diverticular disease
+Diálisis,Diálisis peritoneal,Hemodiálisis
+Dolor abdominal,Dolor de barriga,Dolor de estómago,Dolor de panza
+Dolor de cabeza,Cefalea
+Dolor de garganta,Faringitis
+Domestic Violence,Battery,Partner abuse,Spousal abuse
+Down Syndrome,Trisomy 21
+Drogas de club,Drogas de diseño,Drogas recreativas,Drogas sintéticas
+Drogas y menores de edad,Abuso de droga y los adolescentes,Abuso de drogas de menores,Abuso de drogas y los jóvenes,Abuso de drogas y los niños,Abuso de sustancias y los menores
+Drug Abuse,Substance abuse
+Drug Reactions,Side effects
+Dry Mouth,Xerostomia
+Dwarfism,Little person
+E-Cigarettes,E-Cigs,Electronic Cigarettes,Personal Vaporizer
+E. Coli Infections,Escherichia coli
+Ear Infections,Otitis media
+Eating Disorders,Anorexia nervosa,Binge eating,Bulimia
+Ebola,Ebola hemorrhagic fever,Ebola virus disease
+Ebola,Enfermedad por el virus del Ebola
+Eccema,Dermatitis
+Ecografía,Sonograma,Ultrasonido
+Ectopic Pregnancy,Abdominal pregnancy,Tubal pregnancy
+Eczema,Dermatitis
+Edema,Dropsy
+Edema,Hinchazón
+Ehlers-Danlos Syndrome,Cutis elastica,EDS
+Ejercicio y estado físico,Mantenerse en forma
+Elección de un doctor o plan médico,Elección de un médico
+Electrical Injuries,Electric shock,Electrical burn
+Electromagnetic Fields,EMFs
+Embarazo ectópico,Embarazo abdominal,Embarazo cervical,Embarazo tubérico
+Embolia pulmonar,Embolismo pulmonar
+Encefalitis,Inflamación del cerebro
+End of Life Issues,Death and dying,Terminal care
+Endometriosis,Endo
+Enfermedad arterial periférica,EAP,Enfermedad vascular periférica
+Enfermedad celíaca,Celiaquía,Enteropatía por sensibilidad al gluten,Esprúe celíaco
+Enfermedad de Addison,Insuficiencia adrenal
+Enfermedad de Alfa-1 antitripsina,Alfa-1,Deficiencia de AAT,Deficiencia de alfa-1 antitripsina
+Enfermedad de Chagas,Mal de Chagas
+Enfermedad de Charcot-Marie-Tooth,Disfunción del nervio peroneo
+Enfermedad de Creutzfeldt-Jakob,Encefalopatía espongiforme,Enfermedad de la vaca loca
+Enfermedad de Crohn,Enfermedad inflamatoria intestinal
+Enfermedad de Hodgkin,Linfoma de Hodgkin
+Enfermedad de las arterias coronarias,Arterioesclerosis coronaria
+Enfermedad de Lyme,Borrelosis
+Enfermedad de obstrucción pulmonar crónica,EOPC,EPOC
+Enfermedad de Paget en el hueso,Osteítis deformante
+Enfermedad de Parkinson,Mal de Parkinson,Parkinson,Parkinsonismo,Parálisis con temblor
+Enfermedad de Raynaud,Fenómeno de Raynaud
+Enfermedad de Wilson,Degeneración hepatolenticular
+Enfermedad del legionario,Legionelosis,Neumonía por Legionella
+Enfermedad inflamatoria pélvica,EIP
+Enfermedad por arañazo de gato,Bartonellosis
+Enfermedad pulmonar intersticial,Enfermedades pulmonares intersticiales
+Enfermedad renal crónica,Falla crónica de los riñones,Falla renal crónica,Insuficiencia crónica del riñón,Insuficiencia renal de tipo crónico
+Enfermedades causadas por el calor,Hipertermia
+Enfermedades de la boca,Enfermedades bucales
+Enfermedades de la córnea,Enfermedad corneal
+Enfermedades de la glándula pituitaria,Enfermedades pituitarias
+Enfermedades de la piel,Enfermedades cutáneas,Problemas dermatológicos
+Enfermedades de la próstata,Enfermades prostáticas
+Enfermedades de la retina,Enfermedades retinales
+Enfermedades de la tiroides,Enfermedades tiroideas
+Enfermedades de la vagina,Enfermedades vaginales
+Enfermedades de la vejiga,Enfermedades vesicales
+Enfermedades de la vesícula biliar,Colecistopatía,Enfermedad biliar,Enfermedades vesiculares
+Enfermedades de la vulva,Enfermedades vulvares
+Enfermedades de las arterias carótidas,Enfermedad cerebrovascular,Estenosis de las arterias carótidas
+Enfermedades de las encías,Enfermedad periodontal
+Enfermedades de las glándulas suprarrenales,Trastornos de las glándulas suprarrenales (adrenales)
+Enfermedades de los animales y su salud,Mascotas y la salud de los humanos
+Enfermedades de los huesos,Enfermedades óseas
+Enfermedades de los ojos,Enfermedades oculares
+Enfermedades de los ovarios,Enfermedades ováricas
+Enfermedades de los pulmones,Enfermedades pulmonares
+Enfermedades de los riñones,Enfermedades renales,Nefropatías
+Enfermedades de los testículos,Enfermedades testiculares
+Enfermedades de transmisión sexual,ETS,Enfermedades transmitidas sexualmente,Enfermedades venéreas
+Enfermedades del ano,Enfermedades anales
+Enfermedades del cerebro,Enfermedades cerebrales
+Enfermedades del colon,Enfermedades del intestino colon
+Enfermedades del corazón,Cardiopatías,Enfermedades cardíacas
+Enfermedades del estómago,Enfermedades estomacales
+Enfermedades del hígado,Enfermedades hepáticas,Hepatopatías
+Enfermedades del pene,Enfermedades peneales
+Enfermedades del páncreas,Enfermedades pancreáticas
+Enfermedades del seno,Enfermedades de las mamas,Enfermedades de los pechos
+Enfermedades del sistema digestivo,Enfermedades del aparato digestivo,Enfermedades gastrointestinales
+Enfermedades del sistema endocrino,Enfermedades endócrinas
+Enfermedades del sistema inmunitario,Enfermedades del sistema inmunológico,Enfermedades inmunológicas
+Enfermedades del sistema linfático,Enfermedades linfáticas
+Enfermedades del sistema nervioso periférico,Neuropatía periférica
+Enfermedades del útero,Enfermedades de la matriz,Enfermedades del endometrio,Enfermedades uterinas
+Enfermedades infecciosas,Infecciones
+Enfermedades mentales,Trastornos mentales
+Enfermedades musculares,Enfermedades de los músculos
+Enfermedades neurodegenerativas,Enfermedades degenerativas del sistema nervioso
+Enfermedades neurológicas,Déficits neurológicos
+Enfermedades parasitarias,Enfermedades causadas por parásitos
+Enfermedades peritoneales,Enfermedades del peritoneo
+Enfermedades rectales,Enfermedades del recto
+Enfermedades transmitidas por alimentos,Contaminación de los alimentos,Enfermedades de transmisión alimentaria,Enfermedades transmitidas por alimentos,Enfermedades transmitidas por alimentos contaminados,Eta,Intoxicación alimentaria
+Enlarged Prostate (BPH),benign prostatic hyperplasia
+Ensayos clínicos,Estudios clínicos
+Envenenamiento,Intoxicación
+Envenenamiento con monóxido de carbono,Inhalación de monóxido de carbono,Intoxicación con monóxido de carbono
+Envenenamiento con plomo,Saturnismo
+Envenenamiento con productos del hogar,Intoxicación con productos en el hogar,Venenos en el hogar
+Eosinophilic Disorders,Eosinophilia
+Erectile Dysfunction,ED,Impotence
+Errores en la administración de medicamentos,Cómo tomar los medicamentos,Dar mal un medicamento,Errores con dosis de medicamentos,Errores con remedios,Errores de medicación,Tomando medicamentos de manera segura
+Escanografía nuclear,Gammagrafía
+Esclerodermia,Esclerosis sistémica
+Esclerosis lateral amiotrófica,Enfermedad de Lou Gehrig
+Escoliosis,Curvatura de la columna
+Espondilitis anquilosante,Espondilitis reumatoide
+Esteroides anabólicos,Esteroides anabolizantes,Esteroides anabólico-androgénicos
+Estreñimiento,Constipación
+Estrés,Tensión emocional,Tensión fisica
+Etiquetado de alimentos,Etiquetas en los envases de alimentos
+Evacuación de las heces,Defecación,Evacuación fecal,Ir de cuerpo,Mover el vientre
+Evaluación del recién nacido,Exámenes para recién nacidos,Pruebas de diagnóstico para recién nacidos
+Exercise for Seniors,Seniors' fitness
+Exposición al sol,Exposición solar,Tomar sol
+Exámenes médicos,Exámenes diagnósticos
+Eye Wear,Contact lenses,Eyeglasses
+Fainting,Syncope
+Falla ovárica prematura,Insuficiencia ovárica prematura
+Fallo cardíaco,ICC,Insuficiencia cardíaca,Insuficiencia cardíaca congestiva
+Fatiga,Cansancio extremo
+Fatigue,Tiredness,Weariness
+Fetal Alcohol Spectrum Disorders,FASD
+Fever,Pyrexia
+Fibrilación auricular,Fibriloaleteo auricular
+Fibroides uterinos,Fibroides del útero,Fibromas del útero
+Fibromyalgia,FMS
+Fiebre,Calentura,Temperatura alta
+Fiebre del valle,Coccidioidomicosis,Fiebre del valle San Joaquín
+Fifth Disease,Erythema infectiosum
+Fire Safety,Fire prevention
+Flu,Grippe,Influenza
+Flu Shot,Flu vaccine
+Folic Acid,Folacin,Folate,Pteroylglutamic acid,Vitamin B9
+Food Labeling,Nutrition labeling
+Foodborne Illness,Food Poisoning
+Fracturas,Hueso roto
+Fractures,Broken bone
+Fragile X Syndrome,FRAXA,FXS
+Fumar y los jóvenes,Cigarillos y la gente joven,Fumar y la juventud
+Fungal Infections,Mycoses
+G6PD,Deficiencia de G6PD,Deficiencia de glucosa -6- fosfato-deshidrogenasa,G-6-PD
+G6PD Deficiency,Glucose-6-phosphate dehydrogenase deficiency
+Gallstones,Cholelithiasis
+Gas,Belch,Burp,Eructation,Flatulence,Flatus
+Gastroenteritis,Stomach flu
+Gastroenteritis,Virus estomacal
+Gastrointestinal Bleeding,GI bleeding
+Genetic Brain Disorders,Inborn genetic brain disorders
+Genital Herpes,Herpes genitalis
+Genital Warts,Condylomata acuminate,Venereal warts
+GERD,Gastroesophageal reflux disease
+Gluten Sensitivity,Gluten Intolerance
+Gonorrhea,The clap
+Gout,Gouty arthritis
+Granulomatosis with Polyangiitis,GPA,Wegener's Granulomatosis
+Gripe,Gripa,Influenza,Trancazo
+Gripe aviar,Gripe aviaria,Gripe del pollo,H5N1,Influenza aviaria
+Gripe H1N1 (gripe porcina),2009 H1N1,G5N,Gripe A,Gripe AH1N1,Gripe porcina,Influenza A,Influenza porcina
+Guardería infantil,Centros de cuidado de niños,Cuidado de los niños fuera del hogar,Jardines maternales,Jardín de niños,Proveedores de cuidado de niños
+Guillain-Barre Syndrome,Acute idiopathic polyneuritis,Acute inflammatory polyneuropathy,Infectious polyneuritis,Landry-Guillain-Barre syndrome
+Gum Disease,Periodontal disease
+Gérmenes e higiene,Higiene para la prevención de infecciones
+H1N1 Flu (Swine Flu),Swine flu
+Hablando con su doctor,Cuando habla con su doctor,Hablar con el doctor,Hablar con su médico,Hablar con un profesional de la salud
+Hair Loss,Alopecia
+Hantavirus,Síndrome pulmonar por hantavirus
+Hantavirus Infections,HPS,Hanta virus
+Hay Fever,Pollen allergy
+Head Injuries,Cranial injuries,Skull fractures,Skull injuries
+Head Lice,Pediculosis
+Health Checkup,Annual checkup,Annual physical examination,Routine physical examination
+Health Facilities,Health care facilities
+Health Fraud,Health scams,Quackery
+Health Occupations,Health careers,Health professions,Medical occupations,Medical professions
+Health Screening,Screening tests
+Hearing Disorders and Deafness,Hearing loss,Presbycusis
+Heart Attack,MI,Myocardial infarction
+Heart Diseases,Cardiac diseases
+Heart Failure,CHF,Cardiac failure,Congestive heart failure,Left-sided heart failure,Right-sided heart failure
+Heart Surgery,Cardiac surgery
+Heart Valve Diseases,Valvular heart disease
+Heartburn,Acid indigestion,Pyrosis
+Heat Illness,Heat exhaustion,Sunstroke
+Hemochromatosis,Iron overload disease
+Hemocromatosis,Sobrecarga de hierro
+Hemophilia,Christmas disease,Factor IX deficiency,Factor VIII deficiency
+Hemorragia,Sangrado
+Hemorragia gastrointestinal,Sangrado gastrointestinal
+Hemorrhagic Fevers,VHFs
+Hemorrhagic Stroke,Intracerebral Hemorrhage,Subarachnoid Hemorrhage
+Hemorrhoids,Piles
+Hemorroides,Almorranas
+Hepatitis,Viral hepatitis
+Hepatitis A,HAV
+Hepatitis B,HBV
+Hepatitis C,HCV
+Hepatitis Testing,Hepatitis panel
+Herbal Medicine,Botanicals,Phytotherapy
+Heridas y lesiones,Lesiones
+Hernia,Enterocele
+Hernia de disco,Hernia discal
+Hernia de hiato,Hernia hiatal
+Herniated Disk,Bulging disk,Compressed disk,Herniated intervertebral disk,Herniated nucleus pulposus,Prolapsed disk,Ruptured disk,Slipped disk
+Heroin,Black tar,H,Horse,Junk,Skag,Smack
+Heroína,Dama blanca,Goma,Lenguazo,Pasta,Polvo blanco
+Herpes labial,Herpes febril,Herpes simple oral
+Herpes Simplex,HSV
+Hiccups,Hiccough
+Hidradenitis Suppurativa,Acne inversa,Suppurative hidradenitis
+Hidrocefalia,Agua en el cerebro
+High Blood Pressure,Benign essential hypertension,Essential hypertension,HBP,HTN,Hypertension
+Hip Replacement,Hip arthroplasty,Hip prosthesis
+Hiperglucemia,Azúcar alta en la sangre,Hiperglicemia
+Hipertensión pulmonar,Hipertensión arterial pulmonar
+Hipertiroidismo,Hiperfunción tiroidea,Hipertireosis,Tiroidismo,Tirotoxicosis
+Hipoglucemia,Azúcar baja en la sangre,Hipoglicemia
+Hipotermia,Temperatura baja del cuerpo
+Hipotiroidismo,Hipofunción tiroidea,Insuficiencia tiroidea,Mixedema
+Histerectomía,Extirpación del útero
+Historia clínica,Expedientes médicos,Historia médica familiar,Registros del paciente
+HIV/AIDS,AIDS,Acquired immunodeficiency syndrome,HIV,Human immunodeficiency virus
+HIV/AIDS and Infections,AIDS-related opportunistic infections,OIs
+Hives,Urticaria
+Hodgkin Disease,Hodgkin lymphoma
+Home Care Services,In-home care
+Hormone Replacement Therapy,ERT,Estrogen replacement therapy,HRT,Menopausal hormone therapy
+Hospice Care,End-of-life care
+HPV,Human papillomavirus
+Huntington's Disease,HD,Huntington's chorea
+Hurricanes,Cyclones,Typhoons
+Hydrocephalus,Water on the brain
+Hyperglycemia,High blood glucose,High blood sugar
+Hypoglycemia,Low blood sugar
+Hypothermia,Cold-related illness
+Immunization,Vaccination
+Impaired Driving,Distracted driving,Drugged driving,Drunk driving
+Imágenes por resonancia magnética,RMN,Resonancia magnética nuclear
+Incompatibilidad Rh,Enfermedad hemolítica del neonato inducida por Rh
+Incontinencia fecal,Incontinencia intestinal
+Incontinencia urinaria,Problemas de control de la micción,Pérdida del control de la vejiga
+Indigestion,Dyspepsia,Upset stomach
+Indigestión,Digestión lenta
+Infant and Newborn Care,Baby care
+Infecciones bacterianas,Infecciones causadas por bacterias
+Infecciones de las vías urinarias,Infección urinaria
+Infecciones de los huesos,Infecciones óseas
+Infecciones de los oídos,Otitis media
+Infecciones durante el embarazo,Infecciones en el embarazo
+Infecciones meningocócicas,Infecciones por meningococos
+Infecciones por campylobacter,Campilobacteriosis
+Infecciones por clamidia,Clamidia
+Infecciones por Clostridium difficile,Colitis seudomembranosa,Enterocolitis por Clostridium
+Infecciones por cándida,Candidiasis,Candidiasis vulvovaginal,Infección micótica vaginal,Infección vaginal por hongo
+Infecciones por Escherichia coli,E. Coli
+Infecciones por Giardia,Giardiasis
+Infecciones por hongos,Infecciones micóticas
+Infecciones por Listeria,Listeria,Listeriosis
+Infecciones por micobacterias,Infecciones micobacterianas
+Infecciones por neumococo,Infecciones neumocócicas
+Infecciones por Norovirus,Norovirus
+Infecciones por Pneumocystis,Neumocistosis,Neumonía por Pneumocystis carinii,Pneumocystis jiroveci
+Infecciones por salmonella,Salmonela,Salmonelosis
+Infecciones virales,Infecciones causadas por virus
+Infectious Arthritis,Septic arthritis
+Infectious Diseases,Communicable diseases
+Infectious Mononucleosis,Glandular fever,Kissing disease,Mono,Mononucleosis
+Infertilidad,Esterilidad,Problemas para concebir
+Infertilidad en el hombre,Infertilidad masculina
+Infertilidad en la mujer,Infertilidad femenina
+Infertility,Sterility
+Inhalación pasiva de humo,Fumar involuntariamente,Humo ambiental,Humo de segunda mano
+Inhalantes,Esnifar
+Inhalants,Huffing
+Injerto óseo,Injerto de hueso
+Inmunización del niño,Inyecciones,Vacunación de los niños,Vacunas para los niños
+Inmunización o vacunación,Vacunas
+Insect Bites and Stings,Bug bites
+Insuficiencia renal,Falla renal,Insuficiencia de los riñones
+Insuficiencia respiratoria,Falla respiratoria
+International Health,Global health
+Interstitial Cystitis,Bladder pain syndrome,IC,PBS,Painful bladder syndrome
+Intestinal Cancer,Duodenal cancer,Ileal cancer,Jejunal cancer,Small intestine cancer
+Intestinal Obstruction,Bowel obstruction,Intestinal volvulus,Paralytic ileus
+Intimidación,Acoso en la escuela,Acoso escolar,Agresión en la escuela,Buscapleitos,Peleones
+Intolerancia a la lactosa,Intolerancia a productos lácteos
+Irritable Bowel Syndrome,IBS,Irritable colon
+Ischemic Stroke,Embolic Stroke,Thrombotic stroke
+Itching,Pruritus
+Jaundice,Icterus
+Juvenile Arthritis,Childhood arthritis,JRA,Juvenile idiopathic arthritis,Still's disease
+Kaposi's Sarcoma,KS
+Kawasaki Disease,Mucocutaneous lymph node syndrome
+Kidney Cancer,Hypernephroma,Renal cancer
+Kidney Diseases,Renal disease
+Kidney Failure,ESRD,End-stage renal disease,Renal failure
+Kidney Stones,Nephrolithiasis
+Kidney Tests,Kidney Function Panel,Kidney Function Tests,Kidney Panel,Renal Function Panel
+Kidney Transplantation,Renal transplantation
+Klinefelter's Syndrome,XXY male
+Knee Replacement,Knee arthroplasty
+Lactancia,Amamantamiento,Amamantar,Darle el pecho al bebé
+Lactose Intolerance,Dairy product intolerance,Lactase deficiency,Milk intolerance
+Laser Eye Surgery,Keratectomy,LASIK,LTK,PRK
+Lead Poisoning,Plumbism
+Learning Disorders,Learning differences,Learning disabilities
+Legionnaires' Disease,Legionellosis
+Leishmaniasis,Kala-azar
+Lesiones del manguito rotatorio del hombro,Hombro de lanzador,Hombro de nadador,Hombro de tenista,Síndrome de pinzamiento del hombro,Síndrome de sobrecarga del hombro,Tendinitis del manguito de los rotadores
+Lesiones del ojo,Lesiones oculares
+Lesiones en la cabeza,Golpes en la cabeza
+Lesiones por electricidad,Lesiones eléctricas,Lesiones por rayos
+Lesiones por inhalación,Aspiración de humos tóxicos,Lesiones por aspiración de gas,Lesiones por aspiración de humo
+Lesiones y enfermedades de la mandíbula,Enfermedad mandibular,Enfermedades de la quijada,Problemas mandibulares
+Lesiones y enfermedades de la nariz,Enfermedades nasales
+Lesiones y enfermedades del talón,Enfermedades del calcañal,Problemas con el carcañal
+Lesiones y enfermedades del tórax,Problemas torácicos
+Leucemia linfocítica aguda,Leucemia linfoblástica aguda
+Leucemia mielógena aguda,Leucemia mieloide aguda
+Lewy Body Disease,Dementia with Lewy bodies
+Lice,Body lice
+Ligadura de trompas,Cirugía de esterilización femenina,Esterilización tubárica,Ligadura tubárica,Ligar las trompas,Procedimiento histeroscópico de oclusión de las trompas
+Linfoma,Linfoma no Hodgkin
+Listeria Infections,Listeriosis
+Liver Cancer,Hepatocellular carcinoma
+Liver Diseases,Hepatic disease
+Liver Function Tests,Hepatic function panel,Liver panel,Liver tests
+Liver Transplantation,Hepatic transplantation
+Low Blood Pressure,Hypotension,LBP
+Lunares,Nevos
+Lung Cancer,Bronchogenic carcinoma
+Lupus,Discoid lupus,SLE,Subacute cutaneous lupus,Systemic lupus erythematosus
+Lymphedema,Lymphatic obstruction
+Lymphoma,Non-Hodgkin lymphoma
+Lágrimas,Trastornos del conducto nasolagrimal
+Macular Degeneration,AMD,Age-related macular degeneration
+Mal aliento,Aliento fuerte,Halitosis
+Malaria,Paludismo
+Maltrato al anciano,Abuso del anciano,Abuso y negligencia hacia las personas mayores
+Maltrato al menor,Abuso de menores,Abuso físico de menores,Maltrato infantil,Negligencia del niño
+Mamografía,Mamograma,Mastografía
+Marihuana,Cartuchos,Churros,Juana,Juanita,Mafu,Mota,Yoints
+Marijuana,Cannabis,Ganja,Grass,Hash,Pot,Weed
+Measles,Rubeola
+Medicamentos,Medicinas,Remedios
+Medicamentos sin receta médica,Medicamentos de venta libre,Medicinas de venta libre,Medicinas sin receta médica,Remedios sin receta médica
+Medicamentos y los niños,Cómo darle la medicina al niño,Remedios y los niños,Seguridad de los remedios y los niños
+Medicare Prescription Drug Coverage,Medicare Part D
+Medicina herbaria,Suplementos de hierbas
+Medicinas durante el embarazo,Medicamentos durante el embarazo,Remedios durante el embarazo,Uso de medicamentos durante el embarazo
+Medicinas para el VIH/SIDA,Medicamentos para el SIDA,Medicamentos para el VIH/SIDA,Remedios para el SIDA,Remedios para el VIH/SIDA
+Medicinas para la diabetes,Medicamentos para la diabetes,Remedios para la diabetes
+Medicinas para la presión arterial,Medicamentos para la hipertensión,Medicinas para la presión sanguínea,Medicinas para la tensión arterial,Remedios para la presión
+Medicinas para la tos y el resfrío,Medicamentos para la tos y el resfrío,Remedios para el resfrío,Remedios para la tos
+Medicines,Drugs,Medications
+Medidas para el control de infecciones,Controlar infecciones
+Meningitis,Spinal meningitis
+Menopause,Change of life
+Menstruación,Período,Regla
+Menstruation,Menses,Menstrual period,Period
+Mental Disorders,Mental illness
+Mesothelioma,Malignant mesothelioma
+Metabolic Panel,BMP,Basic Metabolic Panel,CMP,Chem 12,Chem 7,Chemistry Panel,Comprehensive Metabolic Panel
+Metabolic Syndrome,Insulin resistance syndrome,Metabolic syndrome X
+Metanfetamina,Drogas estimulantes,Speed
+Methamphetamine,Chalk,Crystal,Glass,Ice,Meth,Speed,Tina
+Mieloma múltiple,Mieloma de células plasmáticas,Plasmacitoma maligno
+Migraña,Jaqueca
+Mild Cognitive Impairment,MCI
+Miscarriage,Spontaneous abortion
+Mitral Valve Prolapse,Barlow's syndrome,Floppy valve syndrome,MVP
+Mobility Aids,Ambulation devices
+Molds,Fungi
+Moles,Nevus
+Mononucleosis infecciosa,Enfermedad del beso,Mononucleosis
+Mordeduras de animales,Herida por mordida de animal
+Moretones,Contusión,Equimoma,Golpe,Magulladura,Moradura,Morete
+Motion Sickness,Airsickness,Carsickness,Seasickness
+Motor Vehicle Safety,Automobile safety,Car safety,Vehicle safety
+MRI Scans,Magnetic resonance imaging,NMR,Nuclear magnetic resonance
+MRSA,Methicillin-resistant Staphylococcus aureus
+Multiple Myeloma,Plasma-cell myeloma
+Multiple Sclerosis,MS
+Muscle Cramps,Charley horse
+Muscle Disorders,Myopathy
+Muscular Dystrophy,MD
+Myelodysplastic Syndromes,MDS
+Nasal Cancer,Cancer of the nasal cavity,Cancer of the paranasal sinus
+Native American Health,Alaska Native health,American Indian health
+Nausea and Vomiting,Emesis
+Neumonía,Pulmonía
+Neuralgia del trigémino,Tic doloroso
+Neurofibromatosis,Recklinghausen's disease,von Recklinghausen's disease
+Neurologic Diseases,Nervous system diseases
+Neuroma acústico,Schwannoma vestibular,Tumor acústico
+Norovirus Infections,Norwalk virus infections
+Nose Injuries and Disorders,Nasal disorders
+Nuclear Scans,Radioisotope scans,Radionuclide scans
+Nutrición,Comida saludable
+Nutrición artificial,Alimentación asistida
+Nutrición del bebé y del recién nacido,Alimentación del bebé y del niño
+Nutrición del niño,Alimentación del niño
+Nutrición durante el embarazo,Alimentación durante el embarazo,Dieta durante el embarazo,Embarazo y nutrición
+Nutrición para personas mayores,Alimentación para personas mayores
+Nutritional Support,Artificial feeding,Artificial hydration and nutrition,Hyperalimentation,Parenteral nutrition,TPN,Tube feeding
+Náusea y vómitos,Regurgitación
+Obesidad en niños,Obesidad infantil
+Objetos extraños en el cuerpo,Cuerpo extraño en la piel
+Obsessive-Compulsive Disorder,OCD
+Obstrucción intestinal,Oclusión intestinal,Seudoobstrucción intestinal,Vólvulo intestinal,Íleo
+Orthodontia,Braces
+Ortodoncia,Aparatos,Aparatos de ortodoncia,Frenos
+Osteoarthritis,Degenerative joint disease,OA,Osteoarthrosis
+Osteoartritis,Artrosis,Trastorno degenerativo de las articulaciones
+Osteogenesis Imperfecta,Brittle bone disease,OI
+Osteonecrosis,Aseptic necrosis,Avascular necrosis,Ischemic necrosis
+Osteonecrosis,Necrosis aséptica,Necrosis avascular,Necrosis ósea
+Over-the-Counter Medicines,Non-prescription drugs,OTC medicines
+Oxiuros,Lombrices intestinales
+Paget's Disease of Bone,Osteitis deformans
+Pain Relievers,Analgesics,Pain killers,Pain medicines
+Pancreatitis,Inflamación del páncreas
+Paperas,Parotiditis
+Paralysis,Hemiplegia,Palsy,Paraplegia,Quadriplegia
+Parkinson's Disease,Paralysis agitans,Shaking palsy
+Paro cardíaco,Muerte cardíaca repentina,Muerte cardíaca súbita
+Parto,Alumbramiento,Dar a luz,Nacimiento
+Parto de feto muerto,Mortinato,Muerte fetal
+Parálisis de Bell,Parálisis de los músculos faciales,Parálisis del nervio facial,Parálisis facial
+Parálisis supranuclear progresiva,Demencia con distonía de la nuca,Síndrome de Richardson-Steele-Olszewski
+Pelvic Inflammatory Disease,PID
+Pelvic Support Problems,Cystocele,Enterocele,Pelvic prolapse,Rectocele
+Penis Disorders,Penile disorders
+Peptic Ulcer,Duodenal ulcer,Gastric ulcer,Stomach ulcer,Ulcer
+Period Pain,Dysmenorrhea,Menstrual cramps,Menstrual pain
+Peripheral Arterial Disease,PAD
+Peripheral Nerve Disorders,Neuritis,Peripheral neuritis,Peripheral neuropathy
+Personal Health Records,Electronic health records,Patient health record
+Peso del bebé al nacer,Edad gestacional,Peso al nacimiento,Peso del recién nacido
+Peste,Plaga
+Pesticidas,Plaguicida
+Pesticides,Fungicides,Herbicides,Rodenticides
+Phenylketonuria,PKU
+Picaduras y mordeduras de insectos,Picaduras de bichos
+Picazón,Comezón,Prurito
+Pie de atleta,Hongos en los pies,Infección micótica en el pie,Tiña de los pies
+Pie diabético,Problemas en los pies en personas con diabetes
+Piedras en los riñones,Cálculos renales,Litiasis renal
+Piercing and Tattoos,Body art,Body piercing
+Pinkeye,Conjunctivitis
+Pinworms,Enterobiasis,Oxyuriasis,Seatworm infection,Threadworm infection
+Piojos de la cabeza,Liendres,Pediculosis
+Plague,Bubonic plague,Pneumonic plague
+Plastic and Cosmetic Surgery,Cosmetic surgery
+Platelet Disorders,Thrombocyte disorders
+Pneumococcal Infections,Streptococcus pneumoniae infections
+Pneumonia,Bronchopneumonia
+Poison Ivy, Oak, and Sumac,Ivy poison,Rhus dermatitis,Toxicodendron dermatitis
+Polio and Post-Polio Syndrome,Infantile paralysis,PPS,Poliomyelitis
+Polio y síndrome de post-polio,Poliomielitis
+Polycystic Ovary Syndrome,PCOS,Stein-Leventhal Syndrome
+Post-Traumatic Stress Disorder,PTSD
+Postpartum Care,Post-pregnancy health
+Postpartum Depression,Post-pregnancy depression
+Prader-Willi Syndrome,PWS
+Preconcepción,Cuidado antes de concebir,Cuidado antes del embarazo
+Premature Babies,Preemies
+Premature Ovarian Failure,Ovarian insufficiency,POF,Primary ovarian insufficiency
+Premenstrual Syndrome,PMS
+Presión arterial alta,Alta presión,Hipertensión
+Presión arterial alta en el embarazo,Alta presión en el embarazo,Preeclampsia,Toxemia del embarazo
+Presión arterial baja,Baja presión,Hipotensión
+Pressure Sores,Bed sores,Decubitus ulcers,Pressure ulcers
+Preterm Labor,Early Labor,Premature Birth,Premature Labor,Preterm Birth
+Problemas circulatorios,Enfermedades vasculares,Problemas de circulación de la sangre
+Problemas comunes de los recién nacidos,Enfermedades comunes de los recién nacidos,Enfermedades comunes en los bebés,Problemas comunes de salud de los bebés
+Problemas de audición en niños,Problemas para oír en niños
+Problemas de coagulación,Problemas de coagulación de la sangre
+Problemas de la audición y sordera,Problemas para oír
+Problemas de la sangre,Problemas hematológicos
+Problemas de los ojos asociados con la diabetes,Problemas de la visión relacionados con la diabetes,Problemas oftalmológicos en personas con diabetes,Retinopatía diabética,Vista y diabetes
+Problemas de los riñones asociados con la diabetes,Nefropatía diabética,Problemas renales en personas con diabetes
+Problemas de salud de las personas sin hogar,Problemas de salud de los sin techo
+Problemas de sostén de la pelvis,Prolapso de la pelvis
+Problemas del cabello,Enfermedades capilares,Enfermedades del cabello
+Problemas del corazón asociados con la diabetes,Corazón y diabetes,Enfermedades cardíacas y diabetes
+Problemas del habla y de la comunicación,Retraso en el habla y lenguaje
+Problemas del habla y del lenguaje en niños,Problemas de la comunicación en niños,Problemas del habla en los niños,Problemas para hablar en los niños
+Problemas del sueño,Problemas al dormir
+Problemas durante el parto,Complicaciones de parto
+Problemas neurológicos asociados con la diabetes,Neuropatía diabética
+Problemas para tragar,Disfagia,Trastorno de la deglución
+Problemas plaquetarios,Problemas con las plaquetas
+Problemas poco comunes de los recién nacidos,Enfermedades no comunes de los bebés,Problemas de salud poco comunes de los bebés
+Problemas respiratorios,Disnea,Problemas para respirar
+Problemas sexuales en las mujeres,Frigidez
+Problemas y pérdida de la visión,Problemas de la vista
+Progressive Supranuclear Palsy,PSP,Richardson-Steele-Olszewski syndrome,Steele-Richardson-Olszewski syndrome
+Prolapso de la válvula mitral,Enfermedad de Barlow,Insuficiencia de la válvula mitral,Regurgitación de la válvula mitral
+Proveedor de atención al paciente,Cuidador del paciente
+Proveedores de atención al paciente con Alzheimer,Cuidadores de pacientes con Alzheimer
+Prueba de hemoglobina glicosilada (HbA1c),Prueba de A1c,Prueba de hemoglobina glucosilada
+Pruebas de laboratorio,Tests de laboratorio
+Pruebas prenatales,Pruebas durante el embarazo
+Pruebas y exámenes de función hepática,Pruebas del hígado,Pruebas funcionales hepáticas
+Pruebas y exámenes para el cáncer de cuello uterino,Diagnóstico para el cáncer cervical,Exámenes de detección para el cáncer de cérvix
+Pruebas y exámenes para el cáncer de próstata,Diagnóstico para el cáncer de próstata,Exámenes para la detección del cáncer de próstata
+Pruebas y exámenes para la hepatitis,Análisis para la hepatitis,Diagnóstico de la hepatitis
+Pruebas y exámenes para la tiroides,Diagnóstico para la tiroides
+Pruebas y exámenes para los riñones,Pruebas renales,Tests para los riñones
+Psychotic Disorders,Psychoses
+Pulmonary Embolism,Blood clots in the lung
+Pulmonary Fibrosis,IPF,Idiopathic pulmonary fibrosis
+Pulmonary Hypertension,Pulmonary arterial hypertension
+Pérdida de cabello,Caída de pelo
+Pérdida de extremidades,Pérdida de una parte del cuerpo
+Pérdida de un ser querido,Duelo,Luto
+Pérdida del embarazo,Aborto espontáneo
+Quimioterapia para el cáncer,Medicamentos para tratar el cáncer,Quimioterapia
+Quinta enfermedad,Eritema infeccioso
+Quistes renales,Quistes en los riñones,Riñones, Quistes
+Quitting Smoking,Smoking cessation
+Rabies,Hydrophobia
+Radiation Therapy,Brachytherapy,Radiotherapy
+Radioterapia,Terapia de radiación
+Rashes,Dermatitis,Skin rash
+Raynaud's Disease,Raynaud's phenomenon
+Rayos X,Radiografías
+Reconstrucción del seno,Reconstitución de la mama,Reconstitución del pecho,Reconstitución del seno
+Recuperación de un ataque cerebral,Rehabilitación de un ataque cerebrovascular,Rehabilitación después de un ACV
+Reemplazo de cadera,Artroplastia de cadera
+Reemplazo de rodilla,Artroplastia de rodilla
+Reflujo gastroesofágico,Acidez crónica
+Refractive Errors,Farsightedness,Hyperopia,Myopia,Nearsightedness
+Rehabilitación cardíaca,Rehabilitación cardiovascular,Rehablilitación del corazón
+Rehabilitación pulmonar,Rehabilitación de los pulmones
+Rehabilitation,Rehab
+Resfrío,Resfriado
+Residencias con atención personalizada,Cuidado de personas en instituciones
+Respiratory Syncytial Virus Infections,RSV
+Restless Legs,RLS
+Resucitación cardiopulmonar,RCP,Reanimación cardiopulmonar
+Rheumatoid Arthritis,RA
+Rickets,Rachitis
+Rinitis alérgica,Fiebre de heno
+Rosacea,Acne rosacea
+Rosácea,Acné rosácea
+Rubella,German measles,Three day measles
+Rubéola,Rubeola,Sarampión alemán,Sarampión de tres días
+Safety,Accident prevention
+Salud ambiental,Medio ambiente y usted
+Salud de las personas mayores,Cuestiones de salud al envejecer,Problemas de salud de las personas mayores
+Salud de los adolescentes,Salud del adolescente
+Salud de los asiáticoamericanos,Salud de los asiático-americanos,Salud de los asiáticos en Estados Unidos
+Salud de los hispanos,Salud de los hispanoamericanos,Salud de los hispanos,Salud de los latinoamericanos
+Salud del niño pequeño,Salud del niño de 1 a 5 años,Salud del niño que comienza a caminar
+Salud del viajero,Salud al viajar
+Salud dental,Salud de los dientes
+Salud en el mundo,Salud internacional
+Salud escolar,Salud en el colegio,Salud en la escuela
+Salud ocupacional,Salud en el lugar de trabajo
+Salud ocupacional de proveedores de salud,Salud de las enfermeras y enfermeros,Salud de los doctores,Salud de los profesionales de la salud
+Salud y desarrollo fetal,Desarrollo fetal,Desarrollo y salud del feto,Salud fetal
+Sarna,Escabiosis
+Sarpullido,Dermatitis,Erupción en la piel
+Scars,Cicatrix,Keloid scar
+Scleroderma,Circumscribed scleroderma,Dermatosclerosis,Morphea,Systemic sclerosis
+Seasonal Affective Disorder,SAD,Seasonal depression,Seasonal mood disorder
+Secondhand Smoke,Environmental tobacco smoke,Passive smoking,Tobacco smoke pollution
+Seguridad al conducir,Seguridad en el auto,Seguridad en los vehículos de motor
+Seguridad con los alimentos,Inocuidad de los alimentos,Seguridad alimentaria,Seguridad con los alimentos
+Seguridad de los equipos médicos,Cómo usar los equipos médicos con seguridad
+Seguridad de los medicamentos,Seguridad al comprar medicinas,Seguridad de los remedios
+Seguridad en el agua (Recreación),Seguridad al nadar
+Seguridad en internet,Seguridad en la web,Seguridad en línea
+Seguro de salud,Aseguranza,Seguro médico
+Sensibilidad al gluten,Intolerancia al gluten
+Servicios de atención médica a domicilio,Atención médica en el hogar
+Sexual Assault,Rape
+Sexually Transmitted Diseases,STDs,Sexually transmitted infections,Venereal disease
+Shingles,Herpes zoster,Postherpetic neuralgia
+Sickle Cell Anemia,Hemoglobin SS disease
+Sinusitis,Infección de los senos paranasales
+Skin Conditions,Cutaneous disorders,Dermatologic disorders
+Skin Pigmentation Disorders,Hyperpigmentation,Hypopigmentation
+Sleep Apnea,Sleep-disordered breathing
+Smokeless Tobacco,Chewing tobacco,Dip,Oral tobacco,Snuff,Spit tobacco
+Smoking,Cigar smoking,Cigarette smoking,Pipe smoking,Tobacco smoking
+Smoking and Youth,Teen smoking
+Sodio en la dieta,Sal en la dieta
+Sodium,Salt
+Sore Throat,Pharyngitis
+Speech and Communication Disorders,Communication disorders
+Spina Bifida,Cleft spine,Open spine
+Spinal Muscular Atrophy,SMA
+Spleen Diseases,Splenic diseases
+Staphylococcal Infections,Staph
+Statins,HMG-CoA reductase inhibitors
+Steroids,Corticosteroids,Glucocorticoids
+Stomach Cancer,Gastric cancer
+Stomach Disorders,Gastric disorders
+Streptococcal Infections,Strep
+Stress,Psychological stress
+Stroke,Brain attack,CVA
+Stuttering,Stammering
+Sudden Infant Death Syndrome,Crib death,SIDS
+Sun Exposure,Sunburn
+Suplementos en la dieta,Suplementos dietarios,Suplementos dietéticos
+Surgery,Operation
+Swallowing Disorders,Dysphagia
+Sweat,Perspiration
+Síndrome de Behcet,Síndrome de Behçet
+Síndrome de Cushing,Hipercortisolismo
+Síndrome de Down,Trisomía 21
+Síndrome de Ehlers-Danlos,Piel hiperelástica
+Síndrome de fatiga crónica,Enfermedad sistémica de intolerancia al esfuerzo
+Síndrome de muerte infantil súbita,Muerte en la cuna,Síndrome de muerte súbita del lactante
+Síndrome de Turner,Síndrome 45,X,Síndrome 45,X/46,XX
+Síndrome del intestino irritable,Colitis
+Síndrome metabólico,Síndrome de resistencia a la insulina
+Síndrome X frágil,Síndrome de Martin-Bell
+Síndromes de malabsorción,Absorción deficiente de alimentos,Mala absorción intestinal,Problemas de absorción de alimentos,Problemas de absorción de nutrientes
+Tabaco que no se fuma,Rapé,Tabaco en polvo,Tabaco para mascar,Tabaco por vía oral
+Tailbone Disorders,Coccyx disorders
+Talasemia,Anemia de Cooley,Anemia mediterránea
+Tecnología asistencial,Aparatos de asistencia,Equipo de ayuda a personas con discapacidades
+Teen Development,Adolescent development
+Teen Health,Adolescent health
+Teen Violence,Youth violence
+Teenage Pregnancy,Adolescent pregnancy
+Temporomandibular Joint Dysfunction,TMD,TMJ syndrome,Temporomandibular disorders
+Tendinitis,Tendonitis
+Tendinitis,Inflamación de los tendones
+Terapia alternativa para el cáncer,Medicina alternativa para el cáncer,Medicina complementaria para el cáncer,Terapia complementaria para el cáncer
+Terapia con oxígeno,Oxigenoterapia
+Terapia intensiva,Cuidado crítico,Cuidado intensivo
+Tetanus, Diphtheria, and Pertussis Vaccines,DTaP,DTaP/Tdap/Td,Td,Td vaccination booster,Tdap,Tetanus booster
+Thalassemia,Cooley's anemia,Mediterranean anemia
+Thoracic Outlet Syndrome,TOS
+Throat Cancer,Hypopharyngeal cancer,Laryngeal cancer,Laryngopharyngeal cancer,Nasopharyngeal cancer,Oropharyngeal cancer,Pharyngeal cancer
+Throat Disorders,Pharyngeal disorders
+Thymus Cancer,Thymoma
+Thyroid Tests,Thyroid panel
+Tinea Infections,Ringworm
+Tinnitus,Sílbidos en los oídos
+Toilet Training,Potty training
+Tomografía computarizada,TAC,TC,Tomografía computada
+Tooth Decay,Cavities,Dental caries
+Torceduras y distensiones,Desgarro,Esguinces
+Tos ferina,Tos convulsa,Tos convulsiva,Tosferina
+Trabajo de parto prematuro,Parto prematuro
+Tracheal Disorders,Windpipe disorders
+Transient Ischemic Attack,Mini-stroke,TIA
+Transpiración,Sudor,Sudoración
+Trasplante de corazón,Trasplante cardíaco
+Trasplante de hígado,Trasplante hepático
+Trasplante de pulmón,Trasplante de pulmón
+Trasplante de riñón,Trasplante renal
+Trastorno afectivo estacional,Depresión de invierno,Depresión estacional
+Trastorno bipolar,Enfermedad maniaco-depresiva
+Trastorno de déficit de atención e hiperactividad,Deficiencia de atención,TDAH
+Trastorno de estrés postraumático,TEPT
+Trastorno de pánico,Ataques de pánico
+Trastornos cerebrales genéticos,Trastornos hereditarios del cerebro
+Trastornos de la alimentación,Desórdenes de la alimentación,Trastornos alimentarios,Trastornos de la conducta alimentaria
+Trastornos de la conducta del niño,Problemas de comportamiento del niño
+Trastornos de los bronquios,Problemas bronquiales
+Trastornos de movimiento del ojo,Trastornos de movimientos oculares
+Trastornos de pigmentación de la piel,Problemas del color de la piel
+Trastornos del cuello uterino,Trastornos del cuello del útero
+Trastornos del desarrollo,Retraso mental
+Trastornos del espectro alcohólico fetal,TEAF
+Trastornos del gusto y del olfato,Problemas para degustar y oler
+Trastornos del metabolismo de los carbohidratos,Trastornos del metabolismo de los hidratos de carbono
+Trastornos del metabolismo de los lípidos,Trastornos del metabolismo de las grasas
+Trastornos del pericardio,Trastornos pericardiales,Trastornos pericardíacos
+Trastornos dentales,Problemas dentales
+Trastornos metabólicos,Problemas del metabolismo,Problemas metabólicos
+Trastornos mitocondriales,Trastornos mitocóndricos
+Trastornos pleurales,Trastornos del pleura
+Trastornos psicóticos,Psicosis
+Traumatic Brain Injury,Acquired brain injury,TBI
+Trichomoniasis,Trich
+Trigeminal Neuralgia,TN,Tic douloureux
+Trombosis venosa profunda,Flebitis,Flebotrombosis,Tromboflebitis
+Tsunamis,Maremotos
+Tuberculosis,TB
+Tuberculosis,TB
+Tuberous Sclerosis,TSC,Tuberous sclerosis complex
+Tumor de Wilms,Nefroblastoma
+Tumores benignos,Tumor no canceroso
+Tumores cerebrales,Cáncer cerebral,Cáncer de cerebro,Tumor cerebral
+Tumores cerebrales en niños,Cáncer cerebral en niños,Cáncer de cerebro en niños,Tumores cerebrales en la niñez,Tumores en el cerebro en los niños
+Tumores de la glándula pituitaria,Tumor de la hipófisis,Tumor hipofisario,Tumor pituitario
+Tumores durante el embarazo,Cáncer durante el embarazo
+Tétanos,Trismo
+Ulcerative Colitis,Colitis,Distal colitis,Pancolitis,Ulcerative proctitis
+Ultrasound,Sonogram
+Underage Drinking,Teenage drinking
+Urinalysis,UA,Urine Analysis,Urine Test
+Urinary Tract Infections,UTI
+Urticaria,Ronchas
+Uterine Cancer,Endometrial cancer
+Uterine Fibroids,Fibroids,Uterine leiomyomata
+Vacunas para el tétanos, difteria y tos ferina,Vacuna DPT,Vacuna DPaT,Vacuna Tdpa,Vacuna anticoqueluchosa, antidiftérica y antitetánica,Vacuna tetravalente,Vacuna triple
+Vaginal Bleeding,Dysfunctional Uterine Bleeding,Uterine Bleeding
+Valley Fever,Coccidioidomycosis
+Vasculitis,Angiitis
+Vasectomía,Cirugía de esterilización masculina,NSV,Vasectomía sin bisturí
+Vejiga hiperactiva,Vejiga espasmódica,Vejiga espástica,Vejiga hiperreactiva,Vejiga inestable,Vejiga irritable
+Verrugas genitales,Condiloma,Verrugas venéreas
+VIH/SIDA,Síndrome de inmunodeficiencia adquirida
+VIH/SIDA y las infecciones,Infecciones en las personas con VIH/SIDA,Infección oportunística asociada con el SIDA
+VIH/SIDA: Viviendo con VIH/SIDA,Vivir con VIH/SIDA
+Violencia doméstica,Abuso conyugal,Violencia de género
+Viruela,Variola
+Viruela del simio,Viruela del mono
+Virus del papiloma humano,VPH
+Virus respiratorio sincitial,Virus sincitial respiratorio
+Vision Impairment and Blindness,Low vision
+Vitamin C,Ascorbic acid
+Vitamin D,Cholecalciferol,Ergocalciferol
+Vitamina A,Carotenoides,Retinol
+Vitamina K,Filoquinona
+Vitaminas B,Vitaminas del complejo B
+Vivir saludablemente,Prevención de enfermedades,Vida saludable
+Voice Disorders,Vocal disorders
+Von Hippel-Lindau Disease,VHL
+Warts,Verruca
+Weight Loss Surgery,Bariatric surgery,Bypass surgery,Gastric banding,Obesity surgery
+West Nile Virus,WNV
+Whooping Cough,Pertussis
+Wildfires,Forest Fire,Wildland Fire
+Wilms Tumor,Nephroblastoma
+Wilson Disease,Copper storage disease,Hepatolenticular degeneration
+Wounds and Injuries,Traumatic injuries
+X-Rays,Radiography
+Yeast Infections,Candidiasis,Moniliasis
+Zika Virus,Zika
+Ácido fólico,Folato,Vitamina B9,Ácido pteroilglutámico
+Ántrax,Carbunco
+Úlcera por presión,Escaras,Llagas por presión
+Úlcera péptica,Úlcera duodenal,Úlcera gástrica

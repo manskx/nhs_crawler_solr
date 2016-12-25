@@ -17,49 +17,60 @@ public class NHSController {
 	public static boolean CrawlingStarted = false;
 	public static boolean CrawlingFinished = false;
 	private static ConditionsInsertion currConditionsInsertion;
-	private static int SuccesfullyFetchedURLs	=	0;
+	private static int SuccesfullyFetchedURLs = 0;
+
 	public static int getSuccesfullyFetchedURLs() {
 		return SuccesfullyFetchedURLs;
 	}
+
 	public static int getFaildFetchedURLs() {
 		return FaildFetchedURLs;
 	}
 
-	private static int FaildFetchedURLs	=	0;
-	
-	public static void SuccesfullyFetchedURL(){
+	private static int FaildFetchedURLs = 0;
+
+	public static void SuccesfullyFetchedURL() {
 		SuccesfullyFetchedURLs++;
 	}
-	public static void FaildFetchedURL(){
+
+	public static void FaildFetchedURL() {
 		FaildFetchedURLs++;
 	}
+
 	private NHSController() {
 	}
-
+	// singleton instance 
 	public static NHSController getInstance() {
 		if (instance == null) {
 			instance = new NHSController();
-			currConditionsInsertion	=	new ConditionsInsertionDatabase();
+			// initialize conditions data insertion method
+			currConditionsInsertion = new ConditionsInsertionDatabase();
 		}
 		return instance;
 	}
 
-	public static ConditionsInsertion getConditionsInsertion(){
+	public static ConditionsInsertion getConditionsInsertion() {
 		return currConditionsInsertion;
 	}
-	public String getSuccessfulAndFaildUrlsStatus(){
-		return "\n Successfully Fetchs: "+getSuccesfullyFetchedURLs()+"\n"+
-				"Faild Fechs: "+getFaildFetchedURLs();
+
+	public String getSuccessfulAndFaildUrlsStatus() {
+		return "\n Successfully Fetchs: " + getSuccesfullyFetchedURLs() + "\n" + "Faild Fechs: "
+				+ getFaildFetchedURLs();
 	}
+
 	public String getCrawlingStatus() {
 		if (CrawlingStarted)
-			return MessageSource.RUNNING_CRALWING+ getSuccessfulAndFaildUrlsStatus();
+			return MessageSource.RUNNING_CRALWING + getSuccessfulAndFaildUrlsStatus();
 		if (CrawlingFinished)
-			return MessageSource.FINISHED_CRALWING+ getSuccessfulAndFaildUrlsStatus();
+			return MessageSource.FINISHED_CRALWING + getSuccessfulAndFaildUrlsStatus();
 		return MessageSource.NOT_STARTED_CRALWING;
 
 	}
-
+	/**
+	 * start crawling in background thread.
+	 * @return
+	 * @throws Exception
+	 */
 	public String startCrawlingInBackground() throws Exception {
 
 		if (CrawlingStarted)
@@ -75,7 +86,7 @@ public class NHSController {
 		};
 
 		new Thread(r).start();
-		CrawlingStarted	=	true;
+		CrawlingStarted = true;
 		if (CrawlingStarted)
 			return MessageSource.STARTING_CRAWLING;
 		return MessageSource.ERROR_;
@@ -87,7 +98,7 @@ public class NHSController {
 		 * crawlStorageFolder is a folder where intermediate crawl data is
 		 * stored.
 		 */
-		String crawlStorageFolder = "/data/";
+		String crawlStorageFolder = Configurations.CRAWL_STORAGE_FOLDER;
 
 		/*
 		 * numberOfCrawlers shows the number of concurrent threads that should
@@ -161,6 +172,7 @@ public class NHSController {
 		 * will reach the line after this only when crawling is finished.
 		 */
 		controller.start(NHSCrawler.class, numberOfCrawlers);
+		// Crawling flags
 		CrawlingFinished = true;
 		CrawlingStarted = false;
 

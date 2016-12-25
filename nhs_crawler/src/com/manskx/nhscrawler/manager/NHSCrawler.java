@@ -23,8 +23,8 @@ public class NHSCrawler extends WebCrawler {
 	private static final Pattern IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$");
 
 	/**
-	 * You should implement this function to specify whether the given url
-	 * should be crawled or not (based on your crawling logic).
+	 * This method is to specify whether the given url
+	 * should be crawled or not.
 	 */
 	@Override
 	public boolean shouldVisit(Page referringPage, WebURL url) {
@@ -35,18 +35,18 @@ public class NHSCrawler extends WebCrawler {
 			return false;
 		}
 
-		// Only accept the url if it is in the "www.ics.uci.edu" domain and
-		// protocol is "http".
+		// Only accept the url if it is in the Configurations.URL_PREFIX
 		return href.startsWith(Configurations.URL_PREFIX);
 	}
 
 	/**
 	 * This function is called when a page is fetched and ready to be processed
-	 * by your program.
+	 * 
 	 */
 	@Override
 	public void visit(Page page) {
-		String url = page.getWebURL().getURL();
+		//convert url to lower case to avoid duplicates
+		String url = page.getWebURL().getURL().toLowerCase();
 		URI uri	=	null;
 		
 		try {
@@ -55,19 +55,25 @@ public class NHSCrawler extends WebCrawler {
 			NHSController.FaildFetchedURL();
 			return;
 		}
+		// normalize url		
 		String normalizedUrl = uri.normalize().toString();
+		//unique url hashcode is used to avoid duplicate URLs in database
 		int urlHashCode = normalizedUrl.hashCode();
 		String anchor = page.getWebURL().getAnchor();
 		if (page.getParseData() instanceof HtmlParseData) {
+			
 			HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
 			String html = htmlParseData.getHtml();
+			//extract conditions using jsoup
 			ConditionsExtractor conditionsExtractor = ConditionsExtractor.getInstance();
 			ConditionsExtractor.getInstance().setHtml(html);
 			String title = conditionsExtractor.getTitle();
 			String content = conditionsExtractor.getContent();
 			String header = conditionsExtractor.getHeader();
+			// insert extracted conditions in the insertions method ( database/ jsonfile/ online api ....)
 			ConditionsInsertion conditionsInsertionMethod = NHSController.getConditionsInsertion();
-			conditionsInsertionMethod.insertData(url, anchor, title, header, content, urlHashCode);
+			conditionsInsertionMethod.insertData(normalizedUrl, anchor, title, header, content, urlHashCode);
+			// callback trigger
 			NHSController.SuccesfullyFetchedURL();
 		}
 

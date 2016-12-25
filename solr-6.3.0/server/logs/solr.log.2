@@ -1,0 +1,319 @@
+2016-12-24 21:58:15.126 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-12-24 21:58:15.537 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.3.0
+2016-12-24 21:58:15.537 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2016-12-24 21:58:15.537 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/mansk/nhs/nhs_crawler/solr-6.3.0
+2016-12-24 21:58:15.658 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2016-12-24T21:58:15.539Z
+2016-12-24 21:58:15.659 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2016-12-24 21:58:15.702 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr
+2016-12-24 21:58:15.711 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/solr.xml
+2016-12-24 21:58:16.202 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-12-24 21:58:16.309 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr
+2016-12-24 21:58:16.320 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [nhs_conditions]
+2016-12-24 21:58:16.371 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@3a52dba3{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-12-24 21:58:16.371 INFO  (main) [   ] o.e.j.s.Server Started @1893ms
+2016-12-24 21:58:16.419 WARN  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Couldn't add files from /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/dataimporthandler/lib filtered by .*\.jar to classpath: /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/dataimporthandler/lib
+2016-12-24 21:58:16.433 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader [nhs_conditions] Added 52 libs to classloader, from paths: [/home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/clustering/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/extraction/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/langid/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/velocity/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/dist]
+2016-12-24 21:58:16.830 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.3.0
+2016-12-24 21:58:17.171 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [nhs_conditions] Schema name=example-basic
+2016-12-24 21:58:18.690 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema example-basic/1.6 with uniqueid field id
+2016-12-24 21:58:19.008 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'nhs_conditions' using configuration from instancedir /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions
+2016-12-24 21:58:19.104 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.c.SolrCore [[nhs_conditions] ] Opening new SolrCore at [/home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions], dataDir=[/home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/data/]
+2016-12-24 21:58:19.152 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-12-24 21:58:19.586 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-12-24 21:58:19.587 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-12-24 21:58:19.688 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-12-24 21:58:19.688 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-12-24 21:58:19.842 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@3c934a9f[nhs_conditions] main]
+2016-12-24 21:58:19.856 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf
+2016-12-24 21:58:19.879 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-12-24 21:58:19.887 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-12-24 21:58:19.889 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/elevate.xml
+2016-12-24 21:58:19.924 INFO  (coreLoadExecutor-6-thread-1) [   x:nhs_conditions] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-12-24 21:58:19.960 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3c934a9f[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.3.0):C457)))}
+2016-12-24 21:58:19.960 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:58:19.961 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-12-24 21:58:19.967 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@3c934a9f[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.3.0):C457)))}
+2016-12-24 21:58:39.684 INFO  (qtp1528637575-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482616719476} status=0 QTime=6
+2016-12-24 21:58:39.728 INFO  (qtp1528637575-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482616719477} status=0 QTime=53
+2016-12-24 21:58:43.438 INFO  (qtp1528637575-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482616719476} status=0 QTime=0
+2016-12-24 21:58:43.460 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1482616723416} status=0 QTime=18
+2016-12-24 21:58:43.472 INFO  (qtp1528637575-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482616719477} status=0 QTime=32
+2016-12-24 21:58:43.529 INFO  (qtp1528637575-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482616719476} status=0 QTime=0
+2016-12-24 21:58:43.535 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:43.550 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1482616723416} status=0 QTime=7
+2016-12-24 21:58:43.553 INFO  (qtp1528637575-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482616719477} status=0 QTime=15
+2016-12-24 21:58:43.578 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:45.284 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=2
+2016-12-24 21:58:47.128 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:58:47.141 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:58:47.142 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:58:47.142 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=reload-config&_=1482616723416} status=0 QTime=14
+2016-12-24 21:58:47.156 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:47.161 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:47.175 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:48.736 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:58:48.737 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:58:48.754 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:58:48.777 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:58:48.928 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@7bc5d4a3[nhs_conditions] realtime]
+2016-12-24 21:58:48.965 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:58:49.301 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 335
+2016-12-24 21:58:49.459 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Indexing stopped at docCount = 10
+2016-12-24 21:58:49.460 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:58:49.460 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:58:49.460 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:58:49.574 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@3b71596c[nhs_conditions] main]
+2016-12-24 21:58:49.577 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:58:49.577 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3b71596c[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(6.3.0):C10)))}
+2016-12-24 21:58:49.577 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:58:49.577 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@3b71596c[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(6.3.0):C10)))}
+2016-12-24 21:58:49.580 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:58:49.581 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:58:49.581 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.802
+2016-12-24 21:58:49.581 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&debug=true&optimize=false&indent=on&commit=true&name=dataimport&dataConfig=<dataConfig>%0a%0a%09<dataSource+type%3D"JdbcDataSource"%0a%09%09driver%3D"com.mysql.jdbc.Driver"%0a%09%09url%3D"jdbc:mysql://localhost:3306/NHS_Conditions"+%0a%09%09user%3D"root"%0a%09%09password%3D"123456"+/>%0a%0a%09<document>%0a%09%09<entity+name%3D"id"+query%3D"SELECT+id,+url,+anchor,+title,+header,+contentdata+from+conditions"+/>%0a%09</document>%0a</dataConfig>%0a%0a%0a+++&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false}{deleteByQuery=*:* (-1554636319056986112),add=[5 (1554636319567642624), 6 (1554636319604342784), 7 (1554636319635800064), 8 (1554636319663063040), 9 (1554636319664111616), 10 (1554636319672500224), 11 (1554636319676694528), 12 (1554636319686131712), 13 (1554636319703957504), 14 (1554636319708151808)],commit=} 0 854
+2016-12-24 21:58:49.612 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=3
+2016-12-24 21:58:53.746 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:54.515 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:58:54.516 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:58:54.516 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:58:54.524 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:58:54.529 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@7977792d[nhs_conditions] realtime]
+2016-12-24 21:58:54.541 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:58:54.557 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 15
+2016-12-24 21:58:54.621 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Indexing stopped at docCount = 10
+2016-12-24 21:58:54.621 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:58:54.622 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:58:54.622 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:58:54.685 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@a9aeaa7[nhs_conditions] main]
+2016-12-24 21:58:54.687 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@a9aeaa7[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(6.3.0):C10)))}
+2016-12-24 21:58:54.687 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:58:54.687 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:58:54.687 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@a9aeaa7[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(6.3.0):C10)))}
+2016-12-24 21:58:54.690 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:58:54.691 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:58:54.691 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.166
+2016-12-24 21:58:54.691 INFO  (qtp1528637575-21) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&debug=true&optimize=false&indent=on&commit=true&name=dataimport&dataConfig=<dataConfig>%0a%0a%09<dataSource+type%3D"JdbcDataSource"%0a%09%09driver%3D"com.mysql.jdbc.Driver"%0a%09%09url%3D"jdbc:mysql://localhost:3306/NHS_Conditions"+%0a%09%09user%3D"root"%0a%09%09password%3D"123456"+/>%0a%0a%09<document>%0a%09%09<entity+name%3D"id"+query%3D"SELECT+id,+url,+anchor,+title,+header,+contentdata+from+conditions"+/>%0a%09</document>%0a</dataConfig>%0a%0a%0a+++&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false}{deleteByQuery=*:* (-1554636325021286400),add=[5 (1554636325067423744), 6 (1554636325070569472), 7 (1554636325080006656), 8 (1554636325093638144), 9 (1554636325094686720), 10 (1554636325100978176), 11 (1554636325104123904), 12 (1554636325107269632), 13 (1554636325117755392), 14 (1554636325120901120)],commit=} 0 185
+2016-12-24 21:58:54.710 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:55.674 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:58:55.674 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:58:55.675 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:58:55.690 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:58:55.693 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@4f759fe1[nhs_conditions] realtime]
+2016-12-24 21:58:55.702 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:58:55.714 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 11
+2016-12-24 21:58:55.768 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Indexing stopped at docCount = 10
+2016-12-24 21:58:55.768 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:58:55.768 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:58:55.768 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:58:55.842 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@476ba7ba[nhs_conditions] main]
+2016-12-24 21:58:55.844 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@476ba7ba[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_5(6.3.0):C10)))}
+2016-12-24 21:58:55.845 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:58:55.845 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@476ba7ba[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_5(6.3.0):C10)))}
+2016-12-24 21:58:55.846 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:58:55.847 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:58:55.848 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:58:55.848 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.157
+2016-12-24 21:58:55.848 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&debug=true&optimize=false&indent=on&commit=true&name=dataimport&dataConfig=<dataConfig>%0a%0a%09<dataSource+type%3D"JdbcDataSource"%0a%09%09driver%3D"com.mysql.jdbc.Driver"%0a%09%09url%3D"jdbc:mysql://localhost:3306/NHS_Conditions"+%0a%09%09user%3D"root"%0a%09%09password%3D"123456"+/>%0a%0a%09<document>%0a%09%09<entity+name%3D"id"+query%3D"SELECT+id,+url,+anchor,+title,+header,+contentdata+from+conditions"+/>%0a%09</document>%0a</dataConfig>%0a%0a%0a+++&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false}{deleteByQuery=*:* (-1554636326243926016),add=[5 (1554636326280626176), 6 (1554636326283771904), 7 (1554636326293209088), 8 (1554636326303694848), 9 (1554636326304743424), 10 (1554636326308937728), 11 (1554636326311034880), 12 (1554636326313132032), 13 (1554636326321520640), 14 (1554636326323617792)],commit=} 0 178
+2016-12-24 21:58:55.866 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:59.753 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:58:59.762 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:58:59.762 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:58:59.762 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=reload-config&_=1482616723416} status=0 QTime=10
+2016-12-24 21:58:59.784 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1482616723416} status=0 QTime=0
+2016-12-24 21:58:59.788 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1482616723416} status=0 QTime=1
+2016-12-24 21:58:59.812 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:02.119 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:02.903 INFO  (qtp1528637575-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482616719476} status=0 QTime=0
+2016-12-24 21:59:02.909 INFO  (qtp1528637575-20) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:02.939 INFO  (qtp1528637575-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482616719477} status=0 QTime=28
+2016-12-24 21:59:03.003 INFO  (qtp1528637575-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482616719476} status=0 QTime=0
+2016-12-24 21:59:03.012 INFO  (qtp1528637575-20) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:03.021 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:03.041 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:03.043 INFO  (qtp1528637575-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482616719477} status=0 QTime=16
+2016-12-24 21:59:04.772 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:04.777 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:04.777 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:04.786 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=15
+2016-12-24 21:59:04.787 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:04.797 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:04.803 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@52d4ea2b[nhs_conditions] realtime]
+2016-12-24 21:59:04.811 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:04.813 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:04.829 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 14
+2016-12-24 21:59:05.590 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=0
+2016-12-24 21:59:05.626 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:05.649 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:05.649 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:05.649 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:05.871 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@37d5d204[nhs_conditions] main]
+2016-12-24 21:59:05.873 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@37d5d204[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_6(6.3.0):C457)))}
+2016-12-24 21:59:05.873 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:05.873 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@37d5d204[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_6(6.3.0):C457)))}
+2016-12-24 21:59:05.877 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:05.877 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:05.878 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:05.879 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:1.81
+2016-12-24 21:59:05.879 INFO  (Thread-15) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=15{deleteByQuery=*:* (-1554636335793307648),add=[5 (1554636335835250688), 6 (1554636335841542144), 7 (1554636335846785024), 8 (1554636335865659392), 9 (1554636335867756544), 10 (1554636335870902272), 11 (1554636335872999424), 12 (1554636335875096576), 13 (1554636335881388032), 14 (1554636335882436608), ... (457 adds)],commit=} 0 1108
+2016-12-24 21:59:07.533 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:07.538 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:07.538 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:07.539 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=6
+2016-12-24 21:59:07.594 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:07.596 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:07.600 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:07.608 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@3a11a3c9[nhs_conditions] realtime]
+2016-12-24 21:59:07.616 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:07.632 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 16
+2016-12-24 21:59:08.099 INFO  (qtp1528637575-18) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=1
+2016-12-24 21:59:08.108 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:08.175 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:08.176 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:08.176 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:08.360 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@17515174[nhs_conditions] main]
+2016-12-24 21:59:08.363 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@17515174[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_7(6.3.0):C457)))}
+2016-12-24 21:59:08.363 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:08.363 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@17515174[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_7(6.3.0):C457)))}
+2016-12-24 21:59:08.367 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:08.369 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:08.370 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:08.372 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.770
+2016-12-24 21:59:08.372 INFO  (Thread-16) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=6{deleteByQuery=*:* (-1554636338732466176),add=[5 (1554636338777554944), 6 (1554636338780700672), 7 (1554636338783846400), 8 (1554636338786992128), 9 (1554636338788040704), 10 (1554636338790137856), 11 (1554636338792235008), 12 (1554636338794332160), 13 (1554636338797477888), 14 (1554636338799575040), ... (457 adds)],commit=} 0 839
+2016-12-24 21:59:08.747 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:08.751 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:08.752 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:08.753 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:08.753 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=7
+2016-12-24 21:59:08.763 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:08.769 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@5902ac9f[nhs_conditions] realtime]
+2016-12-24 21:59:08.778 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:08.786 INFO  (qtp1528637575-14) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=3
+2016-12-24 21:59:08.793 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 14
+2016-12-24 21:59:09.301 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:09.301 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:09.301 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:09.468 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@2f8c8b4d[nhs_conditions] main]
+2016-12-24 21:59:09.469 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2f8c8b4d[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(6.3.0):C457)))}
+2016-12-24 21:59:09.469 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:09.469 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@2f8c8b4d[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(6.3.0):C457)))}
+2016-12-24 21:59:09.470 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:09.475 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:09.476 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:09.476 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.713
+2016-12-24 21:59:09.477 INFO  (Thread-17) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=7{deleteByQuery=*:* (-1554636339951960064),add=[5 (1554636339996000256), 6 (1554636339999145984), 7 (1554636340002291712), 8 (1554636340005437440), 9 (1554636340006486016), 10 (1554636340008583168), 11 (1554636340009631744), 12 (1554636340011728896), 13 (1554636340014874624), 14 (1554636340015923200), ... (457 adds)],commit=} 0 731
+2016-12-24 21:59:09.997 INFO  (qtp1528637575-20) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:11.289 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:11.866 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:11.870 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:11.870 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:11.871 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:11.871 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=5
+2016-12-24 21:59:11.881 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:11.888 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@321c9c41[nhs_conditions] realtime]
+2016-12-24 21:59:11.894 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=2
+2016-12-24 21:59:11.897 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:11.914 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 15
+2016-12-24 21:59:12.283 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:12.284 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:12.284 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:12.426 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@7212cf00[nhs_conditions] main]
+2016-12-24 21:59:12.427 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7212cf00[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_9(6.3.0):C457)))}
+2016-12-24 21:59:12.428 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:12.428 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@7212cf00[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_9(6.3.0):C457)))}
+2016-12-24 21:59:12.431 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:12.432 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:12.432 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:12.433 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.551
+2016-12-24 21:59:12.433 INFO  (Thread-18) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=5{deleteByQuery=*:* (-1554636343221420032),add=[5 (1554636343270703104), 6 (1554636343272800256), 7 (1554636343275945984), 8 (1554636343280140288), 9 (1554636343280140289), 10 (1554636343282237440), 11 (1554636343283286016), 12 (1554636343284334592), 13 (1554636343287480320), 14 (1554636343288528896), ... (457 adds)],commit=} 0 567
+2016-12-24 21:59:15.594 INFO  (qtp1528637575-18) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:16.898 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:16.901 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:16.901 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:16.901 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:16.901 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=4
+2016-12-24 21:59:16.912 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:16.917 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@27648729[nhs_conditions] realtime]
+2016-12-24 21:59:16.921 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:16.924 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:16.937 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 12
+2016-12-24 21:59:17.273 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:17.273 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:17.273 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:17.415 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@6458fdf2[nhs_conditions] main]
+2016-12-24 21:59:17.418 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6458fdf2[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(6.3.0):C457)))}
+2016-12-24 21:59:17.418 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:17.418 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@6458fdf2[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(6.3.0):C457)))}
+2016-12-24 21:59:17.419 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:17.424 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:17.424 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:17.425 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.513
+2016-12-24 21:59:17.426 INFO  (Thread-19) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=4{deleteByQuery=*:* (-1554636348496805888),add=[5 (1554636348530360320), 6 (1554636348532457472), 7 (1554636348534554624), 8 (1554636348536651776), 9 (1554636348537700352), 10 (1554636348538748928), 11 (1554636348539797504), 12 (1554636348539797505), 13 (1554636348541894656), 14 (1554636348542943232), ... (457 adds)],commit=} 0 528
+2016-12-24 21:59:19.182 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:19.184 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:19.184 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:19.185 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:19.185 INFO  (qtp1528637575-12) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=3
+2016-12-24 21:59:19.191 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:19.195 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@235282c9[nhs_conditions] realtime]
+2016-12-24 21:59:19.200 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:19.205 INFO  (qtp1528637575-20) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:19.209 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 8
+2016-12-24 21:59:19.539 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:19.539 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:19.539 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:19.670 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@60ac65b3[nhs_conditions] main]
+2016-12-24 21:59:19.671 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@60ac65b3[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(6.3.0):C457)))}
+2016-12-24 21:59:19.671 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:19.671 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@60ac65b3[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(6.3.0):C457)))}
+2016-12-24 21:59:19.676 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:19.676 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:19.677 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:19.677 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.486
+2016-12-24 21:59:19.677 INFO  (Thread-20) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=3{deleteByQuery=*:* (-1554636350885462016),add=[5 (1554636350915870720), 6 (1554636350917967872), 7 (1554636350920065024), 8 (1554636350921113600), 9 (1554636350922162176), 10 (1554636350923210752), 11 (1554636350923210753), 12 (1554636350924259328), 13 (1554636350925307904), 14 (1554636350926356480), ... (457 adds)],commit=} 0 495
+2016-12-24 21:59:20.005 INFO  (qtp1528637575-18) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:20.008 INFO  (qtp1528637575-18) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:20.008 INFO  (qtp1528637575-18) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:20.009 INFO  (qtp1528637575-18) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=4
+2016-12-24 21:59:20.012 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:20.019 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:20.022 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@4d5fc7e1[nhs_conditions] realtime]
+2016-12-24 21:59:20.035 INFO  (qtp1528637575-13) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=4
+2016-12-24 21:59:20.036 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:20.045 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 8
+2016-12-24 21:59:20.434 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:20.434 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:20.434 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:20.594 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@64408f8c[nhs_conditions] main]
+2016-12-24 21:59:20.594 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@64408f8c[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(6.3.0):C457)))}
+2016-12-24 21:59:20.594 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:20.595 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@64408f8c[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(6.3.0):C457)))}
+2016-12-24 21:59:20.596 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:20.597 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:20.598 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:20.598 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.578
+2016-12-24 21:59:20.598 INFO  (Thread-21) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=4{deleteByQuery=*:* (-1554636351753682944),add=[5 (1554636351794577408), 6 (1554636351795625984), 7 (1554636351797723136), 8 (1554636351800868864), 9 (1554636351800868865), 10 (1554636351801917440), 11 (1554636351802966016), 12 (1554636351804014592), 13 (1554636351805063168), 14 (1554636351806111744), ... (457 adds)],commit=} 0 593
+2016-12-24 21:59:21.857 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-12-24 21:59:21.861 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2016-12-24 21:59:21.861 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-12-24 21:59:21.862 INFO  (qtp1528637575-15) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=5
+2016-12-24 21:59:21.863 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.DataImporter Starting Full Import
+2016-12-24 21:59:21.873 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:21.878 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@21625479[nhs_conditions] realtime]
+2016-12-24 21:59:21.883 INFO  (qtp1528637575-19) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=1
+2016-12-24 21:59:21.888 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Creating a connection for entity id with URL: jdbc:mysql://localhost:3306/NHS_Conditions
+2016-12-24 21:59:21.908 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 20
+2016-12-24 21:59:22.262 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Import completed successfully
+2016-12-24 21:59:22.262 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-12-24 21:59:22.263 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6bc8d33d
+2016-12-24 21:59:22.334 INFO  (qtp1528637575-16) [   x:nhs_conditions] o.a.s.c.S.Request [nhs_conditions]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1482616723416} status=0 QTime=0
+2016-12-24 21:59:22.432 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@772d302c[nhs_conditions] main]
+2016-12-24 21:59:22.433 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@772d302c[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_d(6.3.0):C457)))}
+2016-12-24 21:59:22.433 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-12-24 21:59:22.434 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@772d302c[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_d(6.3.0):C457)))}
+2016-12-24 21:59:22.435 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-12-24 21:59:22.440 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-12-24 21:59:22.440 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-12-24 21:59:22.441 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.h.d.DocBuilder Time taken = 0:0:0.567
+2016-12-24 21:59:22.441 INFO  (Thread-22) [   x:nhs_conditions] o.a.s.u.p.LogUpdateProcessorFactory [nhs_conditions]  webapp=/solr path=/dataimport params={core=nhs_conditions&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1482616723416&verbose=false} status=0 QTime=5{deleteByQuery=*:* (-1554636353698791424),add=[5 (1554636353744928768), 6 (1554636353747025920), 7 (1554636353749123072), 8 (1554636353753317376), 9 (1554636353753317377), 10 (1554636353755414528), 11 (1554636353756463104), 12 (1554636353757511680), 13 (1554636353760657408), 14 (1554636353761705984), ... (457 adds)],commit=} 0 584
+2016-12-24 21:59:26.458 INFO  (qtp1528637575-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482616719476} status=0 QTime=0
+2016-12-24 21:59:26.477 INFO  (qtp1528637575-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482616719477} status=0 QTime=9

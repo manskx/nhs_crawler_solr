@@ -1,0 +1,84 @@
+Request [Method: GET] localhost:8080/NHS_Crawler/api/conditions/search?query=Housing
+
+Response: 200
+
+{
+  "response": {
+    "docs": [
+      {
+        "anchor": "Housing Benefit",
+        "header": "",
+        "title": "Housing Benefit - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-benefit.aspx"
+      },
+      {
+        "anchor": "For carers",
+        "header": "",
+        "title": "Housing Benefit - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-benefit.aspx?tabname=For%20carers"
+      },
+      {
+        "anchor": "Care services and advice",
+        "header": "",
+        "title": "Housing Benefit - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-benefit.aspx?tabname=Care%20services%20and%20advice"
+      },
+      {
+        "anchor": "What's your situation?",
+        "header": "",
+        "title": "Housing Benefit - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-benefit.aspx?tabname=What%27s%20your%20situation%3F"
+      },
+      {
+        "anchor": "Money and your rights",
+        "header": "",
+        "title": "Housing Benefit - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-benefit.aspx?tabname=Money%20and%20your%20rights"
+      },
+      {
+        "anchor": "Housing options",
+        "header": "",
+        "title": "Housing options for older and disabled people - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-options-for-older-and-disabled-people.aspx"
+      },
+      {
+        "anchor": "For carers",
+        "header": "",
+        "title": "Housing options for older and disabled people - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-options-for-older-and-disabled-people.aspx?tabname=For%20carers"
+      },
+      {
+        "anchor": "Care services and advice",
+        "header": "",
+        "title": "Housing options for older and disabled people - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-options-for-older-and-disabled-people.aspx?tabname=Care%20services%20and%20advice"
+      },
+      {
+        "anchor": "What's your situation?",
+        "header": "",
+        "title": "Housing options for older and disabled people - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-options-for-older-and-disabled-people.aspx?tabname=What%27s%20your%20situation%3F"
+      },
+      {
+        "anchor": "Money and your rights",
+        "header": "",
+        "title": "Housing options for older and disabled people - Care and support guide - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/social-care-and-support-guide/Pages/housing-options-for-older-and-disabled-people.aspx?tabname=Money%20and%20your%20rights"
+      }
+    ],
+    "numFound": 282,
+    "start": 0
+  },
+  "responseHeader": {
+    "QTime": 6,
+    "params": {
+      "q": "title:housing+OR+\"Housing\"^5 header:housing+OR+\"Housing\"^5 url:housing+OR+\"Housing\"^5 contentdata:housing+OR+\"Housing\"^5 anchor:housing+OR+\"Housing\"^5",
+      "defType": "edismax",
+      "indent": "c",
+      "qf": "title^10 header^10 url^10 contentdata^2 anchor^5",
+      "fl": "title,url,header,anchor",
+      "wt": "json"
+    },
+    "status": 0
+  }
+}

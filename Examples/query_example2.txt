@@ -1,0 +1,83 @@
+Request [Method: GET] localhost:8080/NHS_Crawler/api/conditions/search?query=treatments for headaches
+
+Response: 200
+
+{
+  "response": {
+    "docs": [
+      {
+        "anchor": "headache",
+        "header": "Headaches  Share: Save: Print: Print this page",
+        "title": "Headaches - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Headache/Pages/introduction.aspx"
+      },
+      {
+        "anchor": "headache",
+        "header": "Headaches  Share: Save: Print: Print this page",
+        "title": "Headaches - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Headache/Pages/Introduction.aspx"
+      },
+      {
+        "anchor": "Consent-to-treatment Assessing capacity",
+        "header": "Consent to treatment - Capacity  Share: Save: Print: Print this page",
+        "title": "Consent to treatment - Capacity - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Consent-to-treatment/Pages/Capacity.aspx"
+      },
+      {
+        "anchor": "Scoliosis Treatment - adults",
+        "header": "Scoliosis - Treatment in adults  Share: Save: Print: Print this page",
+        "title": "Scoliosis - Treatment for adults - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Scoliosis/Pages/treatment-adults.aspx"
+      },
+      {
+        "anchor": "Root canal treatment",
+        "header": "Root canal treatment  Share: Save: Print: Print this page",
+        "title": "Root canal treatment - NHS Choices",
+        "url": "http://www.nhs.uk/conditions/Root-canal-treatment/Pages/Introduction.aspx"
+      },
+      {
+        "anchor": "Consent-to-treatment Clinical trials",
+        "header": "Consent to treatment - Clinical trials  Share: Save: Print: Print this page",
+        "title": "Consent To Treatment - Clinical trials - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Consent-to-treatment/Pages/clinical-trial.aspx"
+      },
+      {
+        "anchor": "Consent-to-treatment Children and young people",
+        "header": "Consent to treatment - Children and young people  Share: Save: Print: Print this page",
+        "title": "Consent to treatment - Children and young people - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Consent-to-treatment/Pages/Children-under-16.aspx"
+      },
+      {
+        "anchor": "able to consent",
+        "header": "Consent to treatment  Share: Save: Print: Print this page",
+        "title": "Consent to treatment - NHS Choices",
+        "url": "http://www.nhs.uk/conditions/consent-to-treatment/pages/introduction.aspx"
+      },
+      {
+        "anchor": "consent issues",
+        "header": "Consent to treatment  Share: Save: Print: Print this page",
+        "title": "Consent to treatment - NHS Choices",
+        "url": "http://www.nhs.uk/conditions/Consent-to-treatment/Pages/Introduction.aspx"
+      },
+      {
+        "header": "Consent to treatment  Share: Save: Print: Print this page",
+        "title": "Consent to treatment - NHS Choices",
+        "url": "http://www.nhs.uk/Conditions/Consent-to-treatment/Pages/Introduction.aspx"
+      }
+    ],
+    "numFound": 2002,
+    "start": 0
+  },
+  "responseHeader": {
+    "QTime": 104,
+    "params": {
+      "q": "title:treatment+headache+OR+\"treatments+for+headaches\"^5 header:treatment+headache+OR+\"treatments+for+headaches\"^5 url:treatment+headache+OR+\"treatments+for+headaches\"^5 contentdata:treatment+headache+OR+\"treatments+for+headaches\"^5 anchor:treatment+headache+OR+\"treatments+for+headaches\"^5",
+      "defType": "edismax",
+      "indent": "c",
+      "qf": "title^10 header^10 url^10 contentdata^2 anchor^5",
+      "fl": "title,url,header,anchor",
+      "wt": "json"
+    },
+    "status": 0
+  }
+}

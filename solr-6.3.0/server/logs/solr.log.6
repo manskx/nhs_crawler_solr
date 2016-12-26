@@ -1,42 +1,136 @@
-2016-12-24 09:19:14.607 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
-2016-12-24 09:19:14.924 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.3.0
-2016-12-24 09:19:14.925 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2016-12-24 09:19:14.925 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/mansk/nhs/nhs_crawler/solr-6.3.0
-2016-12-24 09:19:15.001 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2016-12-24T09:19:14.927Z
-2016-12-24 09:19:15.002 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
-2016-12-24 09:19:15.023 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr
-2016-12-24 09:19:15.030 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/solr.xml
-2016-12-24 09:19:15.341 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
-2016-12-24 09:19:15.396 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr
-2016-12-24 09:19:15.430 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7c6908d7{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
-2016-12-24 09:19:15.430 INFO  (main) [   ] o.e.j.s.Server Started @1380ms
-2016-12-24 09:19:18.196 INFO  (qtp1123225098-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=71
-2016-12-24 09:19:18.256 INFO  (qtp1123225098-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=nhs_conditions&action=STATUS&wt=json} status=0 QTime=1
-2016-12-24 09:19:18.281 INFO  (qtp1123225098-18) [   ] o.a.s.h.a.CoreAdminOperation core create command name=nhs_conditions&action=CREATE&instanceDir=nhs_conditions&wt=json
-2016-12-24 09:19:18.368 INFO  (qtp1123225098-18) [   ] o.a.s.c.SolrResourceLoader [nhs_conditions] Added 51 libs to classloader, from paths: [/home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/clustering/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/extraction/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/langid/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/contrib/velocity/lib, /home/mansk/nhs/nhs_crawler/solr-6.3.0/dist]
-2016-12-24 09:19:18.544 INFO  (qtp1123225098-18) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.3.0
-2016-12-24 09:19:18.776 INFO  (qtp1123225098-18) [   ] o.a.s.s.IndexSchema [nhs_conditions] Schema name=example-basic
-2016-12-24 09:19:19.421 INFO  (qtp1123225098-18) [   ] o.a.s.s.IndexSchema Loaded schema example-basic/1.6 with uniqueid field id
-2016-12-24 09:19:19.483 INFO  (qtp1123225098-18) [   ] o.a.s.c.CoreContainer Creating SolrCore 'nhs_conditions' using configuration from instancedir /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions
-2016-12-24 09:19:19.511 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.c.SolrCore [[nhs_conditions] ] Opening new SolrCore at [/home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions], dataDir=[/home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/data/]
-2016-12-24 09:19:19.614 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2016-12-24 09:19:19.978 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2016-12-24 09:19:19.978 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2016-12-24 09:19:19.990 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2016-12-24 09:19:19.990 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2016-12-24 09:19:20.013 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.s.SolrIndexSearcher Opening [Searcher@19360e0f[nhs_conditions] main]
-2016-12-24 09:19:20.022 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf
-2016-12-24 09:19:20.041 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2016-12-24 09:19:20.049 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2016-12-24 09:19:20.052 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/elevate.xml
-2016-12-24 09:19:20.071 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
-2016-12-24 09:19:20.093 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@19360e0f[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
-2016-12-24 09:19:20.094 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2016-12-24 09:19:20.094 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2016-12-24 09:19:20.095 INFO  (searcherExecutor-7-thread-1-processing-x:nhs_conditions) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions] Registered new searcher Searcher@19360e0f[nhs_conditions] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
-2016-12-24 09:19:20.097 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1554588536769871872
-2016-12-24 09:19:20.106 INFO  (qtp1123225098-18) [   x:nhs_conditions] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=nhs_conditions&action=CREATE&instanceDir=nhs_conditions&wt=json} status=0 QTime=1824
-2016-12-24 09:38:13.373 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7c6908d7{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
-2016-12-24 09:38:13.373 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1003752023
-2016-12-24 09:38:13.378 INFO  (coreCloseExecutor-12-thread-1) [   x:nhs_conditions] o.a.s.c.SolrCore [nhs_conditions]  CLOSING SolrCore org.apache.solr.core.SolrCore@27eb64b8
-2016-12-24 09:38:13.394 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.
+2016-12-24 09:38:17.702 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-12-24 09:38:18.048 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.3.0
+2016-12-24 09:38:18.049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2016-12-24 09:38:18.049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/mansk/nhs/nhs_crawler/solr-6.3.0
+2016-12-24 09:38:18.130 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2016-12-24T09:38:18.050Z
+2016-12-24 09:38:18.131 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2016-12-24 09:38:18.151 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr
+2016-12-24 09:38:18.156 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/solr.xml
+2016-12-24 09:38:18.428 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-12-24 09:38:18.485 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr
+2016-12-24 09:38:18.493 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [nhs_conditions]
+2016-12-24 09:38:18.528 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@44799410{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-12-24 09:38:18.528 INFO  (main) [   ] o.e.j.s.Server Started @1421ms
+2016-12-24 09:38:18.531 ERROR (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Exception during parsing file: solrconfig.xml:org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 1424; columnNumber: 3; The element type "requestHandler" must be terminated by the matching end-tag "</requestHandler>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1743)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.core.Config.<init>(Config.java:143)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:202)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:179)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:77)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:840)
+	at org.apache.solr.core.CoreContainer.lambda$load$0(CoreContainer.java:498)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-12-24 09:38:18.533 ERROR (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Error creating core [nhs_conditions]: Could not load conf for core nhs_conditions: Error loading solr config from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core nhs_conditions: Error loading solr config from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:85)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:840)
+	at org.apache.solr.core.CoreContainer.lambda$load$0(CoreContainer.java:498)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:187)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:77)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 1424; columnNumber: 3; The element type "requestHandler" must be terminated by the matching end-tag "</requestHandler>".
+	at org.apache.solr.core.Config.<init>(Config.java:154)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:202)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:179)
+	... 9 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 1424; columnNumber: 3; The element type "requestHandler" must be terminated by the matching end-tag "</requestHandler>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1743)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.core.Config.<init>(Config.java:143)
+	... 12 more
+2016-12-24 09:38:18.535 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [nhs_conditions]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer.lambda$load$1(CoreContainer.java:526)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [nhs_conditions]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:855)
+	at org.apache.solr.core.CoreContainer.lambda$load$0(CoreContainer.java:498)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core nhs_conditions: Error loading solr config from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:85)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:840)
+	... 6 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/mansk/nhs/nhs_crawler/solr-6.3.0/server/solr/nhs_conditions/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:187)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:77)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 1424; columnNumber: 3; The element type "requestHandler" must be terminated by the matching end-tag "</requestHandler>".
+	at org.apache.solr.core.Config.<init>(Config.java:154)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:202)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:179)
+	... 9 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 1424; columnNumber: 3; The element type "requestHandler" must be terminated by the matching end-tag "</requestHandler>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1743)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.core.Config.<init>(Config.java:143)
+	... 12 more
+2016-12-24 09:39:15.051 INFO  (qtp1528637575-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1482572354700} status=0 QTime=95
+2016-12-24 09:39:15.086 INFO  (qtp1528637575-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482572354702} status=0 QTime=130
+2016-12-24 09:39:15.113 INFO  (qtp1528637575-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1482572354702} status=0 QTime=17
+2016-12-24 09:40:01.345 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@44799410{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-12-24 09:40:01.345 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=226744878
+2016-12-24 09:40:01.351 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.

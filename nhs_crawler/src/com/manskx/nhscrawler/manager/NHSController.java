@@ -127,7 +127,8 @@ public class NHSController {
 		 * is -1 for unlimited number of pages
 		 */
 		config.setMaxPagesToFetch(Configurations.MAX_PAGES_TO_FETCH);
-
+		
+		config.setConnectionTimeout(5000);
 		/**
 		 * Do you want crawler4j to crawl also binary data ? example: the
 		 * contents of pdf, or the metadata of images etc

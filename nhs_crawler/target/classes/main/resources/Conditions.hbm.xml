@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.manskx.nhscrawler.database">
+	<class name="Conditions" table="conditions"
+		>
+		<id name="id" type="java.lang.Integer">
+			<column name="id" />
+			<generator class="identity" />
+		</id>
+		<property name="url" type="string">
+			<column name="url" />
+		</property>
+		<property name="anchor" type="string">
+			<column name="anchor" />
+		</property>
+		<property name="title" type="string">
+			<column name="title" />
+		</property>
+		<property name="header" type="string">
+			<column name="header" />
+		</property>
+		<property name="contentdata" type="string">
+			<column name="contentdata" />
+		</property>
+
+		<property name="hashed_url" type="java.lang.Integer">
+			<column name="hashed_url" />
+		</property>
+
+
+	</class>
+</hibernate-mapping>

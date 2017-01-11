@@ -2,10 +2,19 @@
 
 This repo provides crawling and searching based on data crawled from www.nhs.uk/conditions/
 
-### What is this repository for? ###
+### Technologies ###
 
-* This is private repo for "babylon health" as a required task in hiring process
-
+* Java8
+* Maven
+* MySQL Server.
+* Stanford CoreNLP
+* Solr6.3
+* Hibernate ORM
+* Jersey RESTful framework
+* Crawler4j
+* Jsoup html parser
+* xml sax parser for extracting synonyms
+* Testing tools ( junit, jersey test, hamcrest )
 
 ### Main workflow ###
 
@@ -34,19 +43,6 @@ This repo provides crawling and searching based on data crawled from www.nhs.uk/
 * nlm.nih.gov/medical-terms.html, medlineplus.gov/xml.html for extracting medical synonyms
 * edu.stanford.nlp
 
-### Technologies ###
-
-* Java8
-* Maven
-* MySQL Server.
-* Stanford CoreNLP
-* Solr6.3
-* Hibernate ORM
-* Jersey RESTful framework
-* Crawler4j
-* Jsoup html parser
-* xml sax parser for extracting synonyms
-* Testing tools ( junit, jersey test, hamcrest )
 
 ### Contents ###
 
